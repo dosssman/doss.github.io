@@ -5,6 +5,50 @@ comments: true
 # toc: true
 ---
 
+> - B.S. = bull shit; M.S. = more shit; PhD = piled higher & deeper
+
+<cite>Random guy on the Internet</cite>
+{: .small}
+
+Comment: Well, looks like I have been hard at work piling up some ...
+
+> Things are easier to learn when the stakes are not too high.
+
+<cite>Louis Rossmann</cite>
+{: .small}
+While some pressure or alike can indeed be a great catalyst for us to do something, in some case that same pressure, especially when the cost ofa failure at said task is relatively high, can lead one to perform sub-optimally with respect to that goal.
+As a "solution", he proposes to "give yourself the luxury of failures", as a way to reduce the stress and anxiety that would induce sub-par performance.
+
+An example that comes to mind was when playing some challenging level of Doom Eternal: when having a few sparse lives that gave me the luxury to fail without being set back too much, I would usually be more daring in my actions, while at the same time being relax enough to perform the consistently enough, than when I have no spare lives. In that case, I would actually be very "conservative" and restrained, just to be able to reach the next checkpoint without doing, which happens to be less enjoyable and interesting overall.
+
+> Don't ever take a fence down until you know why it was put up.
+
+<cite>Robert Frost</cite>
+{: .small}
+Comment: pending I guess.
+
+> The problem with democracy is that those who need leaders are not qualified to choose them
+
+<cite>Michael Malice</cite>
+{: .small}
+The argument was that "competent people" do not need direction as they are more able to decide for themselves.
+On the other hand, "incompetent people" who need leadership do not actually have the capacity to designate the latter even for their own good.
+As a counter-argument, however, no matter the degree of competence an individual might have, is it enough to work optimally at a larger scale ? Maybe the hope here relies in an "ideal decentralized system", but can such system even exist ?
+Not matter individual competence, it seems more efficient to delegate some processes, hence the potential need of such "leaders".
+This probably require more thoughts.
+
+> Every mind was made for growth, for knowledge, and its nature is sinned against when it is doomed to ignorance.
+
+<cite>William Ellery Channing</cite>
+{: .small}
+A critic on censorship ? Or the voluntary embrace of ignorance ?
+
+> A saying for getting laid in engineering schools: "The odds are good, but the goods are odd".
+
+<cite>Author unknown</cite>
+{: .small}
+Comment: Personal experience: neither goods nor odds it seems.
+
 > As our island of knowledge grows, so does the shore of our ignorance.
 
 <cite>John Wheeler</cite>
