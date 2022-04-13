@@ -113,7 +113,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "doss.github.io"
+      url: "https://dosssman.github.io"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:dosssman@hotmail.fr
@@ -291,13 +291,13 @@ collections:
   posts:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
   ramblings:
-    output: true
-    permalink: /:collection/:path/
-  publications:
     output: true
     permalink: /:collection/:path/
 
@@ -307,6 +307,16 @@ defaults:
   - scope:
       path: "_posts"
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
     values:
       layout: single
       author_profile: true
@@ -326,15 +336,6 @@ defaults:
   - scope:
       path: "_ramblings"
       type: ramblings
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: "_publications"
-      type: publications
     values:
       layout: single
       author_profile: true

@@ -8,15 +8,15 @@ layout: archive
 </h3>
 
 {% if publications_paginator %}
-{% assign publications = publications_paginator.publications %}
+  {% assign publications = publications_paginator.publications %}
 {% else %}
-{% assign publications = site.publications %}
+  {% assign publications = site.publications %}
 {% endif %}
 
-{% assign publication_entries_layout = publication.entries_layout | default: 'list' %}
-<div class="entries-{{ publication_entries_layout }}">
-  {% for publication in publications %}
-  {% include archive-single-publication.html %}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in publications %}
+    {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
 
@@ -47,7 +47,7 @@ layout: archive
   {% assign projects = site.projects %}
 {% endif %}
 
-{% assign project_entries_layout = projects.entries_layout | default: 'gridview' %}
+{% assign project_entries_layout = projects.entries_layout | default: 'list' %}
 <div class="entries-{{ project_entries_layout }}">
 {% for project in projects %}
   {% include archive-single-project.html %}
@@ -55,5 +55,3 @@ layout: archive
 </div>
 
 {% include paginator.html %}
-
-
