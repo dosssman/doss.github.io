@@ -4,54 +4,54 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_publications | default: "Recent Publications" }}
-</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_publications | default: "Recent Publications" }}
+</h2>
 
 {% if publications_paginator %}
-  {% assign publications = publications_paginator.publications %}
+{% assign publications = publications_paginator.publications %}
 {% else %}
-  {% assign publications = site.publications %}
+{% assign publications = site.publications %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in publications %}
-    {% include archive-single.html type=entries_layout %}
+  {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
 
 {% include paginator.html %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+{% assign posts = paginator.posts %}
 {% else %}
-  {% assign posts = site.posts %}
+{% assign posts = site.posts %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
+  {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
 
 {% include paginator.html %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_projects | default: "Recent Projects" }}</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_projects | default: "Recent Projects" }}</h2>
 
 {% if project_paginator %}
-  {% assign projects = project_paginator.projects %}
+{% assign projects = project_paginator.projects %}
 {% else %}
-  {% assign projects = site.projects %}
+{% assign projects = site.projects %}
 {% endif %}
 
 {% assign project_entries_layout = projects.entries_layout | default: 'list' %}
 <div class="entries-{{ project_entries_layout }}">
-{% for project in projects %}
+  {% for project in projects %}
   {% include archive-single-project.html %}
-{% endfor %}
+  {% endfor %}
 </div>
 
 {% include paginator.html %}
