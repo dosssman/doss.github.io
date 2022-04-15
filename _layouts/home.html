@@ -10,8 +10,7 @@ layout: archive
   Therefore it is not posssible to paginate Publicatiosn, Posts, and other on the same page.
  -->
 <!-- Publications -->
-<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_publications | default: "Recent Publications" }}
-</h2>
+<h2>{{ site.data.ui-text[site.locale].recent_publications | default: "Recent Publications" }}</h2>
 <!-- No pagination unfortunately. -->
 {% assign publications = site.publications | sort: "date" | reverse %}
 
@@ -24,7 +23,7 @@ layout: archive
 <br /><br />
 
 <!-- Posts / Articles -->
-<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+<h2>{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 {% assign posts = site.posts | sort: "date" | reverse %}
 
@@ -37,7 +36,7 @@ layout: archive
 <br /><br />
 
 <!-- Projects -->
-<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_projects | default: "Recent Projects" }}</h2>
+<h2>{{ site.data.ui-text[site.locale].recent_projects | default: "Recent Projects" }}</h2>
 
 {% assign projects = site.projects | sort: "date" | reverse %}
 

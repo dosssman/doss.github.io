@@ -10,9 +10,7 @@ main:
     url: /projects/
   - title: "Ramblings"
     url: /ramblings/
-  - title: "About"
-    url: /about/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  # - title: "About"
+  #   url: /about/
   # - title: "Sitemap"
   #   url: /sitemap/
