@@ -1,57 +1,49 @@
 ---
+title: Rousslan Dossa - Home
 layout: archive
 ---
 
 {{ content }}
-
+<!-- 
+  NOTE:
+  2022-04-15: Removing pagination: unfortunately, the paginator plugin only works on _posts folder, and nothing else.
+  Therefore it is not posssible to paginate Publicatiosn, Posts, and other on the same page.
+ -->
+<!-- Publications -->
 <h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_publications | default: "Recent Publications" }}
 </h2>
-
-{% if publications_paginator %}
-{% assign publications = publications_paginator.publications %}
-{% else %}
-{% assign publications = site.publications %}
-{% endif %}
+<!-- No pagination unfortunately. -->
+{% assign publications = site.publications | sort: "date" | reverse %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in publications %}
-  {% include archive-single.html type=entries_layout %}
+  {% for post in publications limit:4 %}
+    {% include archive-single-home.html type=entries_layout %}
   {% endfor %}
 </div>
+<br /><br />
 
-{% include paginator.html %}
-
+<!-- Posts / Articles -->
 <h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
-{% if paginator %}
-{% assign posts = paginator.posts %}
-{% else %}
-{% assign posts = site.posts %}
-{% endif %}
+{% assign posts = site.posts | sort: "date" | reverse %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-  {% include archive-single.html type=entries_layout %}
+  {% for post in posts limit:4 %}
+    {% include archive-single-home.html type=entries_layout %}
   {% endfor %}
 </div>
+<br /><br />
 
-{% include paginator.html %}
-
+<!-- Projects -->
 <h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_projects | default: "Recent Projects" }}</h2>
 
-{% if project_paginator %}
-{% assign projects = project_paginator.projects %}
-{% else %}
-{% assign projects = site.projects %}
-{% endif %}
+{% assign projects = site.projects | sort: "date" | reverse %}
 
-{% assign project_entries_layout = projects.entries_layout | default: 'list' %}
-<div class="entries-{{ project_entries_layout }}">
-  {% for project in projects %}
-  {% include archive-single-project.html %}
+<div class="entries-grid">
+  {% for post in projects limit:8 %}
+    {% include archive-single-home.html type="grid" %}
   {% endfor %}
 </div>
 
-{% include paginator.html %}
