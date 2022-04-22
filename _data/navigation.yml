@@ -8,6 +8,8 @@ main:
     url: /publications/
   - title: "Projects"
     url: /projects/
+  - title: "Resume"
+    url: /assets/resume/2022_04_rousslan_dossa_resume.pdf
   - title: "Ramblings"
     url: /ramblings/
   # - title: "About"
