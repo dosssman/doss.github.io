@@ -20,7 +20,7 @@ classes: wide
 # TL;DR
 For the sake of brevity, the abridged version of the core components and features.
 
-## Pics and n00d5
+## Pictures
 <figure class="one">
     <a href="/assets/projects/ergodash_build/FinalPics/IMG_20200812_161558.jpg"><img src="/assets/projects/ergodash_build/FinalPics/IMG_20200812_161558.jpg"></a>
     <a href="/assets/projects/ergodash_build/FinalPics/IMG_20200812_161518.jpg"><img src="/assets/projects/ergodash_build/FinalPics/IMG_20200812_161518.jpg"></a>
@@ -48,6 +48,10 @@ For the sake of brevity, the abridged version of the core components and feature
 <figure class="half">
     <a href="/assets/projects/ergodash_build/PreviewGallery/IMG_20200802_170338.jpg"><img src="/assets/projects/ergodash_build/PreviewGallery/IMG_20200802_170338.jpg"></a>
     <a href="/assets/projects/ergodash_build/PreviewGallery/IMG_20200802_165240.jpg"><img src="/assets/projects/ergodash_build/PreviewGallery/IMG_20200802_165240.jpg"></a>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064858.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064858.jpg"></a>
+    <a href="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064926.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064926.jpg"></a>
 </figure>
 <figure class="half">
     <a href="/assets/projects/ergodash_build/PreviewGallery/IMG_20200802_165216.jpg"><img src="/assets/projects/ergodash_build/PreviewGallery/IMG_20200802_165216.jpg"></a>
@@ -88,19 +92,27 @@ For the sake of brevity, the abridged version of the core components and feature
 - Split keyboard allows for better posture, with straightened back and shoulder facing outward.
 - Less pronation with the tenting kit.
 - Highly customizable keyboard layout via the QMK Toolbox.
+- Reduced hand movement if properly combined with a trackball.
 {: .text-justify}
 
 ## Cons
-- Relatively expensive (but can shave off a bit by skipping the RGB and switch quality, and hot-swap feature). Hot-swapping and tenting are quite expensive (~35$ each. 35$ worth of screws, standoffs, and nuts, just imagine...)
-- Still need to move the right hand to reach the mouse. In retrospect, [a trackball or trackpad around the right-hand thumb cluster would be ideal](https://medium.com/@kincade/track-beast-build-log-a-trackball-dactyl-manuform-19eaa0880222). Nevertheless, it is possible to enable mouse keys in the QMK firmware to serve a workaround, albeit a less precise one. (See Firmware Flash Notes).
+- Relatively expensive (but can shave off a bit by skipping the RGB and switch quality, and hot-swap feature). Hot-swapping and tenting are quite expensive (~35\\$ each, then ~35\\$ worth of screws, standoffs, and nuts, just imagine...)
 - Learning curve that might take around four days for the alphabetic keys, and more for the numeric and other symbol keys.
 {: .text-justify}
 - This tenting method is not as flexible as the original one, and might require a higher investment.
+- Still need to move the right hand to reach the mouse. In retrospect, [a trackball or trackpad around the right-hand thumb cluster would be ideal](https://medium.com/@kincade/track-beast-build-log-a-trackball-dactyl-manuform-19eaa0880222). Nevertheless, it is possible to enable mouse keys in the QMK firmware to serve a workaround, albeit a less precise one. (See Firmware Flash Notes).
+I ended up combining it with a Logitech M575 Trackball positioned under the right board, which tenting happened to fit just right.
+<figure class="one">
+    <a href="/assets/projects/ergodash_build/FinalPics/IMG_20200812_161558.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211109_120045.jpg"></a>
+</figure>
+For a more integrated keyboard, I would definitely recommend the [Charybdis](https://bastardkb.com/charybdis/), which build is currently underway.
 
 ## Important build notes
 
 - If not using hot-swap, the build order is really important, especially regarding soldering the switches, which requires to pre-install the upper side of the case. The Pro Micro covers the holes of 2 switches and their LEDs, so those must also be soldered BEFORE soldering down the Pro Micro.
-- When installing the Pro Micro, make sure it is not too elevated and the pins are trimmed to be able to close the case properly. From my experience in this build, not doing so ended up in a slight bow of the bottom side of the case.
+- ~~When installing the Pro Micro, make sure it is not too elevated and the pins are trimmed to be able to close the case properly. From my experience in this build, not doing so ended up in a slight bow of the bottom side of the case.~~
+__UPDATE__: After breaking the USB port of the Pro Micros on both sides, I realized that it was incredibly hard to de-solder them. This ended up costing me both boards.
+- Highly recommend [_socketing_](https://docs.splitkb.com/hc/en-us/articles/360011263059-How-do-I-socket-a-microcontroller-) the micro controller (especially if Elite-C). This will allow easier repair, upgrade, or replacement if needs be.
 
 From here onward is the long version, which, in retrospect, just reads like a huge rant and excuses gave to myself for this "purchase", all disguised as a build log.
 
@@ -136,6 +148,24 @@ Namely the ability to hot-swap switches to further improve upgradability, which 
 The tenting and tilting of the case was also a feature that was further consolidated after watching getting acquainted with the ShortCircuits (Linus Tech Tips) channel's [Dygma Ergonomic Keyboard Review](https://www.youtube.com/watch?v=i4TCbc9oB1E), the [ErgoDash custom case with tenting and tilting support of @clomie](https://twitter.com/clomie/status/1134790717656616962), and finally this [アメ_ツチ_ホシ_ソラ Custom Iris tenting](https://www.reddit.com/r/MechanicalKeyboards/comments/e89x8g/%E3%82%A2%E3%83%A1_%E3%83%84%E3%83%81_%E3%83%9B%E3%82%B7_%E3%82%BD%E3%83%A9/).
 {: .text-justify}
 
+<h3>[2022-05 UPDATE]</h3>
+After around two years of usage, the USB ports of the Pro Micro controllers on both side broke.
+Unfortunately, it was nigh impossible to de-solder the Pro Micro to fix them.
+Through the process, both boards ended up unusable due to too much force applied to them during the attempt at de-soldering.
+In retrospect, it could have nevertheless been possible to do with a high enough (de-)soldering experience.
+Lesson learned.
+{: .text-justify}
+
+Since the boards could hardly be fixed, I ended up ordering a new set. This time however, I decided to upgrade to the [Elite-C](https://splitkb.com/products/elite-c-low-profile-rev4-microcontroller?_pos=1&_sid=42967d41f&_ss=r) as micro controller, instead of the Pro Micro. Namely, the _rev4_'s USB-C was designed more robustly to avoid the exact problem of the ports yielding that happened with the Pro Micro. Although at least twice as expensive, it does come with USB-C and maybe better feature overall.
+{: .text-justify}
+
+Additionally, instead of directly soldering the Elite-Cs once and for all to the new boards, I happened to learn about micro controller [_socketing_](https://docs.splitkb.com/hc/en-us/articles/360011263059-How-do-I-socket-a-microcontroller-) and thus went for it. Socketing the micro controller would allow for easier repair of the keyboard if needs be, or re-using the same micro controller in a different build.
+{: .text-justify}
+As a matter of fact, as I write this update, the Elite-C currently installed in this ErgoDash will be transplanted to Charybidis, which posts is also underway.
+Although the sockets for the micro-controller themselves might come as a bit pricy, they are definitely worth it, saving an incredible amount of stress, waiting time and funds down the road.
+Also, did I mention the agony of going back to a standard, stagerred keyboard ? T_T
+Besides that, another thing worth mentioning was the hot-swapping of the key switches, which later allow for painless replacement of keys that started to malfunction.
+{: .text-justify}
 # Part List (Exhaustive)
 Arguably a critical phase depending on the extent to which the build is to be customized.
 {: .text-justify}
@@ -149,7 +179,8 @@ Arguably a critical phase depending on the extent to which the build is to be cu
 | M2 x 8mm Screw spacer x 6        |  ✓             |                        |                            |                    |
 | TRRS Jack MJ-4PP-9 x 2           |  ✓             |                        |                            |                    |
 | MJTP1117 Reset Switch x 2        |  ✓             |                        |                            |                    |
-| Arduino Pro Micro ATmega32U4 x 2 |  ✓             |                        |                            |                    |
+| Arduino Pro Micro ATmega32U4 x 2 |  *             |                        |                            |                    |
+| __[2022-05 UPDATE]__ [Elite-C Low Profile (rev4) Microcontroller](https://splitkb.com/products/elite-c-low-profile-rev4-microcontroller?_pos=1&_sid=42967d41f&_ss=r) x 2 | ✓ | | | |
 | Keyswitches x 66-70              |  ✓             |                        |                            |                    |
 | Keycaps x 66-70                  |  ✓             |                        |                            |                    |
 | 1N4148 diode x 66-70             |  ✓             |                        |                            |                    |
@@ -171,9 +202,11 @@ Arguably a critical phase depending on the extent to which the build is to be cu
 | [M5 x 0.125mm screw cushion](https://wilco.jp/products/LL/LL.html#page8) x 32| | |  ✓                   |                    |
 | :---------------------------:    | :------------: | ---------------------: | :----------------:         | :----------------: |
 | [Mill-Max 0305 Holtite sockets](https://keycapsss.com/keyboard-parts/parts/73/mill-max-0305-holtite-for-switches-hotswap-sockets?number=KC10042_50x) × 150  | |  |  | ✓  |
+| __[2022-05 UPDATE]__ [Single Row Socket Headers or Pins (Mill-Max Series 315) 2x 12-Single-Row-Header](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-or-pins-mill-max-series-315) × 2  | |  |  | ✓  |
+| __[2022-05 UPDATE]__ [Single Row Socket Headers or Pins (Mill-Max Series 315) 24x Pins](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-or-pins-mill-max-series-315?number=KC10067_pins) × 2  | |  |  | ✓  |
 
 Note that the links are provided mostly to give an idea of the part and its dimensions.
-Ultimately, the acquisition method is dependent on the geographical location.
+Ultimately, the sourcing will depend on the geographical location.
 {: .text-justify}
 
 # Part selection and planning
@@ -240,7 +273,7 @@ Experimented with a few methods, namely:
 {: .text-justify}
 
 The final strategy to set up the Mill-Max receptacle efficient and with optimal accuracy, with either diodes and resistors already mounted or not, was to first set all the receptacles for one board, then insert the switches as it is.
-Then, using a cardboard to press on the switches on top, flip the board to get access to the underboard where we solder the receptacles.
+Then, using a cardboard to press on the switches on top, flip the board to get access under the board where we solder the receptacles.
 When soldering the receptacle, press down the board until the switches are all the way done.
 This makes sure that not only the receptacles are well aligned with the switch legs, but that they sit nicely and as closely as possible to the board.
 Once done, remove and store away the switches to continue mounting the other components.
@@ -321,7 +354,7 @@ Once all the LEDs were submitted to such a process, trim the legs for the final 
     <figcaption>All LED set on the right upperboard, soldered underboard.</figcaption>
 </figure>
 
-## 8. Pro Micro and its headers
+## 8.a Pro Micro and its headers
 
 **Warning** Soldering the Pro Micro on is a no-going back operation, as desoldering it down is quite difficult (speaking from experience).
 The danger here is that for each board, two switches as well as their corresponding LED have to be soldered in a location the Pro Micro covers afterward.
@@ -346,6 +379,36 @@ In this case, it was still possible of closing the case completely, but at the p
 
 In retrospect, probably not that big of a deal, but it kept me awake for a few nights.
 {: .text-justify}
+
+## 8.b Socketed Elite-C (2022-05 Update)
+
+This is a slightly altered build that uses an Elite C micro controller (MCU) for each side.
+The MCU are socketed to the board, instead of being directly soldered like in 8.a to make repairs or upgrades easier.
+{: .text-justify}
+
+A great introduction to socketing can be found [here](https://docs.splitkb.com/hc/en-us/articles/360011263059-How-do-I-socket-a-microcontroller-), while the required parts are specificied in the exhaustive list above.
+{: .text-justify}
+
+AFter installing the header sockets into the board, they need to be tapes up. 
+Otherwise, when soldering the socket pins to the MCU, the solder tin is likely to drip down into the socket holes and solidify, completely defeating the purpose of socketing in the first place. 
+(Yet another lesson I had to literally pay an Elite C and the header socket to learn...).
+Then, the pins can be inserted into the sockets by poking into the holes.
+Then, the Elite-C can be fit on the pins, while making sure to align the pins to their corresponding holes (usually written in silk lines on the board and the MCU).
+{: .text-justify}
+
+<figure class="half">
+    <a href="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064014.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064014.jpg"></a>
+    <a href="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064040.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064040.jpg"></a>
+</figure>
+
+After making sure the Elite-C is flushed with the headers and that there is no gap, solder all the pins.
+Then Elite-C can then be removed, as well as the tape, before being inserted back again, maybe for the last time.
+{: .text-justify}
+
+<figure class="half">
+    <a href="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064858.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064858.jpg"></a>
+    <a href="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064926.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211015_064926.jpg"></a>
+</figure>
 
 ## 8.5 Testing the boards
 
@@ -391,11 +454,120 @@ Besides that, the key switches can be easily installed or removed thanks to the 
 
 <figure class="one">
     <a href="/assets/projects/ergodash_build/BuildLog/IMG_20200802_170341.jpg"><img src="/assets/projects/ergodash_build/BuildLog/IMG_20200802_170341.jpg"></a>
-    <figcaption>Whoops, some n00d5 again tee-hee ;)</figcaption>
 </figure>
 
 # Firmware Flash Notes
 
+## 2022-05 Update: Elite-C Firmware flashing with handedness support.
+
+After upgrading to an Elite-C MCU and getting more familiar with the QMK firmware, I found a more elegant method to flash the firmware that even takes into account the _handedness_ of the connected keybaord.
+The process can be defined is follows.
+
+After cloning the QMK firmware to the local file system and copying the default profile for the `ergodash/rev1` keyboard, the default configuration is set as follows:
+
+```
+qmk config
+
+general.color=True
+general.datetime_fmt=%Y-%m-%d %H:%M:%S
+general.log_file_fmt=[%(levelname)s] [%(asctime)s] [file:%(pathname)s] [line:%(lineno)d] %(message)s
+general.log_file_level=info
+general.log_fmt=%(levelname)s %(message)s
+general.unicode=True
+general.verbose=False
+user.keyboard=ergodash/rev1
+user.keymap=dosssman
+user.qmk_home=/path/to/qmk_firmware``
+```
+
+Next make sure either `avrdude` (for Pro Micro) or `dfu` (Elite-C) drives are installed using `qmk info`.
+
+**1.** Make sure the bootloader used is `atmel-dfu` in `qmk_firmware/keyboards/ergodash/rules.mk` as follows:
+
+```
+# MCU name
+MCU = atmega32u4
+
+# Bootloader selection
+# BOOTLOADER = caterina # For Pro-Micro
+BOOTLOADER = atmel-dfu # For Elite-C
+```
+
+This is a critical step.
+
+**2.** In `qmk_firmware/ergodash/rev1/keymaps/dosssman/config.h`, we set:
+
+```
+#define EE_HANDS
+```
+
+instead of the default `MASTER_LEFT` or `MASTER_RIGHT`.
+
+**3.** Assuming the QMK configurator was used to generate a `keymap.json` like file, the corresponding `keymap.c` can be generated using:
+
+```bash
+qmk json2c keymap.json > keymap.c
+```
+
+The `keymap.c` needs to be placed to the `qmk_firmware/keyboards/ergodash/rev1/keymaps/dosssman/` directory.
+
+**4.** From the `qmk_firmware` root directory, run command corresponding to the side of the board that is currently connected:
+
+```bash
+make ergodash/rev1:dosssman:dfu-split-left # For the left side
+```
+
+or
+
+```bash
+make ergodash/rev1:dosssman:dfu-split-right # For the right side
+```
+
+Before doing anything else, We can use this step to make sure that the `atmel-dfu` was properly selected earlier.
+Namely, the terminal should mentioned "DFU" while prompting you to press the reset button on the keyboard.
+
+## 2022-05 Update: Pro Micro Firmware flashing with handedness support (Untested)
+
+This should be similar to the firmware flashing process for the [Elite-C](#2022-05-update-elite-c-firmware-flashing-with-handedness-support).
+
+**1.** Make sure the boot loader used is `caterina` in `qmk_firmware/keyboards/ergodash/rules.mk` as follows:
+
+```
+# MCU name
+MCU = atmega32u4
+
+# Bootloader selection
+BOOTLOADER = caterina # For Pro-Micro
+# BOOTLOADER = atmel-dfu # For Elite-C
+```
+
+**2.** In `qmk_firmware/ergodash/rev1/keymaps/dosssman/config.h`, we set:
+
+```
+#define EE_HANDS
+```
+
+**3.** Assuming the QMK Configurator was used to generate a `keymap.json` like file, the corresponding `keymap.c` can be generated using:
+
+```bash
+qmk json2c keymap.json > keymap.c
+```
+
+The `keymap.c` needs to be placed to the `qmk_firmware/keyboards/ergodash/rev1/keymaps/dosssman/` directory.
+
+**4.** From the `qmk_firmware` root directory, run command corresponding to the side of the board that is currently connected:
+
+```bash
+make ergodash/rev1:dosssman:avrdude-split-left # For the left side
+```
+
+or
+
+```bash
+make ergodash/rev1:dosssman:avrdude-split-right # For the right side
+```
+
+## Pro Micro: a bit old and amateurish method for flashing
 After [installing the QKM Toolbox](https://docs.qmk.fm/#/getting_started_build_tools), clone the [qmk_firmware] repository somewhere on the hard drive. (Current procedure assumes Linux system.)
 Then, after accessing said repository's directory via the command line, running `qmk setup` will set that working directory (the previously cloned `qmk firmware` folder) will set it as the default folder `qmk` will compile and flash keymaps from.
 Additionally, setting the following configuration variable saves us some time downstream.
