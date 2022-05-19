@@ -85,7 +85,12 @@ Also insist on the difference with the standard build: hot-swapping, elite-c soc
 - Add the steps for flashing.
 __NOTE / TODO__ By this point, you should have already cloned the bkb-master branch, consolidated the qmk firmware under a single repository for both j0554 and dosssman, and describe the clean process of installing it.
 
-# Ackowledgement
+Consider cloning and zipping the github repositories files themselves, host them and add them to the post  as a form of backup ?
+
+# Acknowledgment
+- Sir Quentin
+- The BKB community
+- Money
 
 
 
