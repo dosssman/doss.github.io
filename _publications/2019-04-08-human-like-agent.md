@@ -22,4 +22,4 @@ Full text and PDF available [in Proceedings of 2019 International Joint Conferen
 
 # Backup
 
-<embed src="/assets/publications/pdfs/2019_ijcnn_human_like_rl_il.pdf" type="application/pdf" />
+<embed width="100%" height="100%" src="/assets/publications/pdfs/2019_ijcnn_human_like_rl_il.pdf" type="application/pdf" />

@@ -21,4 +21,4 @@ Full article available [here](https://www.jstage.jst.go.jp/article/transinf/E103
 
 # Backup
 
-<embed src="/assets/publications/pdfs/2020_ieice_humanlike_journal.pdf" type="application/pdf" />
+<embed width="100%" height="100%" src="/assets/publications/pdfs/2020_ieice_humanlike_journal.pdf" type="application/pdf" />

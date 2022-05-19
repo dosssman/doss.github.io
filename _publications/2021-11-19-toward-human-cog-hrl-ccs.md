@@ -24,8 +24,8 @@ In this paper, we propose a hierarchically structured world model that would sep
 The low-level latent variables is expected to encode fast-changing elements of a given RL task, while the high-level of the hierarchy would encode slowly changing elements.
 The latter are approximated using variational temporal abstraction.
 
-<embed src="/assets/publications/pdfs/2021_ieice_ccs_toward_human_cognition_inspired_high_level_decision_making_for_hrl.pdf" type="application/pdf" />
+<embed width="100%" height="100%" src="/assets/publications/pdfs/2021_ieice_ccs_toward_human_cognition_inspired_high_level_decision_making_for_hrl.pdf" type="application/pdf" />
 
 Preliminary results were also presented at [2021 Non Linear Science Workshop](https://nlsw2021.org/) with the following extended summary:
 
-<embed src="/assets/publications/pdfs/2021_NOLTA_Non_Linear_Science_Workshop_Hierarchical_World_Model_Extend_Summary_Compressed.pdf" type="application/pdf" />
+<embed width="100%" height="100%" src="/assets/publications/pdfs/2021_NOLTA_Non_Linear_Science_Workshop_Hierarchical_World_Model_Extend_Summary_Compressed.pdf" type="application/pdf" />
