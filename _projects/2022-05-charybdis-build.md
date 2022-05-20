@@ -41,7 +41,7 @@ __Model__: Charybdis __TODO__: Link to offical website
 - Case: 3D Printed with Formalabs 3B, Clear Resin v4, Custom Engraving
 - Switches Khail Pro Purple x 58 (__TODO__ Double check the count)
 - Keycaps: DSA Blank Transluescent cases
-- Other: Trackbball, RGB backlight key switch hot-swapping, Elite-C microcontroller (MCU) socketing
+- Other: Trackbball with 3D printed BTU instead of bearings, RGB backlight key switch hot-swapping, Elite-C microcontroller (MCU) socketing
 
 
 __TODO__: Emphasize the benefits / caveats of Charybdis in general, then relatively to the ErgoDash. Probably put it in the long version.
@@ -61,7 +61,7 @@ __TODO__: Emphasize the benefits / caveats of Charybdis in general, then relativ
 - For someone that has gotten used to standard _staggered_ keybaord layouts, a learning curve for the improved layout. This barely passes as a caveats, as the comfort of using an ergonomic keyboard vastly makes up for it.
 - _Once you try it, you will never want to come back_. In case one has to work at different physical locations, the high price and time investment makes having duplicate configuration prohibitive. While proficiency with standard keyboard will hardly bbe affected, it becomes very unpleasant to do so, which in my personal case, would lead to rants and bout of annoying _ergo keyboard master race elitism_ that can annoy other people. Using laptop keyboards also becomes an unpleasant activity.
 
-# Build notes
+# Build notes (Long version)
 
 ## Motivation
 
@@ -74,10 +74,29 @@ __TODO__: Emphasize the benefits / caveats of Charybdis in general, then relativ
 
 ## Building steps
 
-__TODO__: Forget not the disclainer that this is not an official build order, but just the commitment of my build experince.
-Also insist on the difference with the standard build: hot-swapping, elite-c socketing, custom 3d pritning and engraving.
+Charybids actually consist of one ["Scylla"]() side without a track ball, and the actual ["Charybdis"]() side that has trackball.
+In this build, the left side uses the "Scylla" files, while the right side uses the "Charybdis" with the trackball.
 
-### 1. 3D printing
+__TODO__: Forget not the disclaimer that this is not an official build order, but just the commitment of my build experience.
+Also insist on the difference with the standard build: hot-swapping, elite-c socketing, custom 3D printing and engraving.
+
+### 1. 3D printing the cases [Optional] [Left, Right]
+
+**TODO**: Have we mentioned to make sure that before printing the case, to make sure that it is the correct orientation (left or right).
+
+### 2. Installing the diodes [Left, Right]
+
+### 3. Installing the RGB components [Optional] [Left, Right]
+
+### 4. Installing Mill-Max sockets for hot-swap [Optional] [Left, Right]
+
+### 5. Ribbon cables and RGB cables [Left, Right]
+
+### 6. Installing the Elite-C MCU [Left, Right]
+
+### 6.5 Installing the trackball sensor [Right side only]
+
+### 7. Assembling the case [Left, Right]
 
 ## Key layout and firmware 
 
