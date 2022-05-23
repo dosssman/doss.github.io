@@ -21,7 +21,7 @@ classes: wide
 
 This write up will focus on the points and showcasing the final result.
 
-## Show case
+## Showcase
 
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase/main.jpg"><img src="/assets/projects/charybdis_build/showcase/main.jpg"></a>
@@ -143,8 +143,9 @@ Also insist on the difference with the standard build: hot-swapping, elite-c soc
 
 **TODO**: Have we mentioned to make sure that before printing the case, to make sure that it is the correct orientation (left or right).
 
-### 2. Installing the dio
-des [Left, Right]
+- Bonus: the STL files for the hand rest.
+
+### 2. Installing the diodes [Left, Right]
 
 ### 3. Installing the RGB components [Optional] [Left, Right]
 
@@ -168,9 +169,7 @@ Consider cloning and zipping the github repositories files themselves, host them
 
 # Acknowledgment
 - Sir Quentin
-- The BKB community
+- The BKB community, and more generally, the open source community.
+- Professor Takiguchi for the 3D printing machine setup
 - Jojo-san for the pictures / help building. **TODO** Any link to a public page ?
-- Money
-
-
-
+- The willpower required for months long saving up of money.
