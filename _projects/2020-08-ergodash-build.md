@@ -105,7 +105,7 @@ I ended up combining it with a Logitech M575 Trackball positioned under the righ
 <figure class="one">
     <a href="/assets/projects/ergodash_build/FinalPics/IMG_20200812_161558.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211109_120045.jpg"></a>
 </figure>
-For a more integrated keyboard, I would recommend the [Charybdis](https://bastardkb.com/charybdis/), which build is currently underway.
+For a more integrated keyboard, I would recommend the [Charybdis](https://bastardkb.com/charybdis/), [which build notes should also be accessible here](/projects/2022-05-charybdis-build/).
 
 ## Important build notes
 
