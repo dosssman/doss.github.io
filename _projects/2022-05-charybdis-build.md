@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Crystaldis": A Charybdis, Keyboard and Trackball All-In-One!"
+title: "Crystaldis: A Charybdis, Keyboard and Trackball All-In-One!"
 excerpt: "Motivation, build log and notes for the crystal Charybdis Ergonomic Mechanical Keyboard with Trackball"
 header:
   teaser: assets/projects/charybdis_build/showcase/main.jpg
@@ -30,6 +30,8 @@ This write up will focus on the most important points of the build and showcasin
 </figure> -->
 
 ## Showcase #2
+
+**Note**: Unlike the build in previous show case, this one uses Kaihl Box Brown switches.
 
 [**\[ Skip to next section \]**](#specifications)
 {: .text-center}
@@ -75,7 +77,7 @@ This write up will focus on the most important points of the build and showcasin
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6703.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6703.JPG"></a>
     <figcaption>Scylla left: assembling all the electronics.</figcaption>
 </figure>
-
+not
 <figure class="half">
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6708.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6708.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6710.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6710.JPG"></a>
@@ -118,12 +120,13 @@ This write up will focus on the most important points of the build and showcasin
 
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6821.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6821.JPG"></a>
-    <figcaption>Charybdis right</figcaption>
+    <figcaption>Charybdis right side closed up.</figcaption>
 </figure>
 
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6830.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6830.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6851.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6851.JPG"></a>
+    <figcaption>Charybdis right getting ready to add the key caps.</figcaption>
 </figure>
 
 **TODO** Get some pictures with the tentings on.
@@ -367,6 +370,9 @@ Finally, a small showcase of the 3D printing tool and process.
 **TODO** Pictures of the printed hand wriste, before and after coating, as well as after setting the cushion.
 
 ### 2. Preparing the case
+
+Unline FDM-based (filament) prints, resin prints usually require some additional clean up and polish.
+In the specific case of the clear case for the Charybdis, it goes as far as requiring clear coating.
 
 ### 3. Installing the diodes [Left, Right]
 
