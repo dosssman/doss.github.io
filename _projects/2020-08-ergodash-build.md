@@ -239,7 +239,7 @@ Otherwise, one might end up with two left or two right-hand boards if not carefu
 
 <figure class="one">
     <a href="/assets/projects/ergodash_build/BuildLog/IMG_20200730_023400.jpg"><img src="/assets/projects/ergodash_build/BuildLog/IMG_20200730_023400.jpg"></a>
-    <figcaption>Blue sticker for underboard, red one for upper board. Usefull to avoid confusion when no components are moounted yet.</figcaption>
+    <figcaption>Blue sticker for underboard, red one for upper board. Usefull to avoid confusion when no components are moounted yet.</figcaption>rrwwww
 </figure>
 
 For the diodes, as per the official guide, it is important to align the black stripe leg with the square holes, and the other leg in the round one.
