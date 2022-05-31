@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Crystaldis: A Charybdis, Keyboard and Trackball All-In-One!"
-excerpt: "Motivation, build log and notes for the crystal Charybdis Ergonomic Mechanical Keyboard with Trackball"
+title: "Crystaldis: A Clear Case Charybdis, All-In-One Keyboard and Trackball!"
+excerpt: "Build log and notes for the clear cased Charybdis Ergonomic Mechanical Keyboard with integrated Trackball"
 header:
-  teaser: assets/projects/charybdis_build/showcase/main.jpg
+  teaser: assets/projects/charybdis_build/showcase2/main.jpg
 tags:
     - Mechanical Keyboard
     - DIY
@@ -11,6 +11,7 @@ tags:
     - Productivity
     - Keeb
     - Charybdis
+    - Scylla
 toc: true
 toc_sticky: true
 author_profile: true
@@ -143,7 +144,7 @@ not
 
 **Other:**
 - Clear case
-- Trackball with 3D printed BTU instead of the default bearings
+- Trackball with 3D printed BTU instead of the default bearings **TODO: Add links**
 - RGB key back-light
 - Hot-swappable key switches
 - Socketed Elite-C micro-controller (MCU)
@@ -208,7 +209,7 @@ moreover, depending on the builder's geographical location, there might be bette
 | Part and quantity                                                                            | Core build   | Case 3D print | Key hot-swap / MCU socketing **[Optional]** |   Price   |
 | :-----------------------------------------------------------------------------------------   | :----------: | :-----------: | :--------------------------: |  -------: | 
 | [Charybdis electronics kit: Base kit + Per key RBG + Elite C $\times$ 2 + Trackball](https://bastardkb.com/product/charybdis-electronics-kit/) (Note 1)   |      ✓       |               |                              |  ~\\$270  |
-| Blank transluescent DSA keycaps $\times$ 56 [Yusha Kobo](https://shop.yushakobo.jp/en/collections/keycaps/products/dsa-blank-keycaps?variant=37665598308513) [Talp Keybaord](https://talpkeyboard.net/items/5d6e2a6ed0f2564e25201388)                                              |      ✓       |               |                              |  ~\\$45   |
+| Blank transluescent DSA keycaps $\times$ 56 [\[Yusha Kobo\]](https://shop.yushakobo.jp/en/collections/keycaps/products/dsa-blank-keycaps?variant=37665598308513) [\[Talp Keybaord\]](https://talpkeyboard.net/items/5d6e2a6ed0f2564e25201388)                                              |      ✓       |               |                              |  ~\\$45   |
 | [Kaihl Pro Purple](https://shop.yushakobo.jp/en/collections/all-switches/products/kailh-pro?variant=37665714700449) $\times$ 56                                                             |      ✓       |               |                              |  ~\\$41   |
 | TRRS Cable $\times$ 1 (Note 2)                                                                        |      ✓       |               |                              |  ~\\$10   |
 | USB Type C-to-A $\times$ 1 (Note 2)                                                                   |      ✓       |               |                              |  ~\\$9    |
@@ -217,15 +218,16 @@ moreover, depending on the builder's geographical location, there might be bette
 | [Clear UV Cut Coating](https://www.amazon.co.jp/GSI%E3%82%AF%E3%83%AC%E3%82%AA%E3%82%B9-Mr-%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%BC-UV%E3%82%AB%E3%83%83%E3%83%88-%E3%83%9B%E3%83%93%E3%83%BC%E7%94%A8%E4%BB%95%E4%B8%8A%E6%9D%90-B522/dp/B002DTL7Y4/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=13JXWXNBA6D7N&keywords=clear+uv+cut+coating&qid=1653307061&sprefix=clear+uv+cut+coatin%2Caps%2C202&sr=8-1) $\times$ 2                                                          |              |       ✓       |                              |  ~\\$10   |
 | [Sand paper for 3D print polish](https://www.amazon.co.jp/Aewio-%E8%80%90%E6%B0%B4-%E9%AB%98%E7%B4%9A%E3%81%AA%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC-1000-30%E6%9E%9A%E3%82%BB%E3%83%83%E3%83%88/dp/B08242YS2H/ref=sr_1_32_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2PSNESBOH2Z8T&keywords=sand%2Bpaper%2Bpolish&qid=1653308227&sprefix=sand%2Bpaper%2Bpolis%2Caps%2C202&sr=8-32-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR1pTQTBXSURBTExEJmVuY3J5cHRlZElkPUEwMjc5MDk1MVkzWENXM1VWSU1SQSZlbmNyeXB0ZWRBZElkPUEzQ1BMSVMwTE4zTEYwJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)                                                           |              |       ✓       |                              |           |
 | [Mill-Max 0305 Holtite for Switches - Hotswap Sockets](https://keycapsss.com/keyboard-parts/parts/73/mill-max-0305-holtite-for-switches-hotswap-sockets?number=KC10042_50x) $\times$ 100 (Note 3)                    |              |               |              ✓               |  ~\\$18   |
-| [MCU header sockets + 24 pins](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-or-pins-mill-max-series-315?number=KC10067_pins) $\times$ 2                                                  |              |               |              ✓               |  ~\\$22   |
-| Other fees (Note 4)                                                                               |      -       |       -       |              -               |  ~\\$60   |
+| [MCU header sockets $\times$ 3 + 24 pins $\times$ x 1.5](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-or-pins-mill-max-series-315?number=KC10067_pins) (Note 4)                                               |              |               |              ✓               |  ~\\$22   |
+| Other fees (Note 5)                                                                               |      -       |       -       |              -               |  ~\\$60   |
 | Total                                                                                        |              |               |                              |  ~\\$661  |
 
 **Notes**
 - (Note 1): The case is not included. One might print their own case, or also purchase it directly from the website as a different kit. There is also a "Prebuilt" option.
 - (Note 2): General enough products that do not warrant a link ... unless one might be interested in also [DIY-ing the cables](https://www.zapcables.com/).
 - (Note 3): Already having some from the previous build, so 100 were enough. Strictly speaking however, one would need to order $56 \times 2$ thus $112$ to have enough for all the keys.
-- (Note 4): Depending on the geographical location, not only the prices part, but also the import tax, various other taxes, and shipping fees can add up to a non-negligible amount.
+- (Note 4): Rigorously speaking, only $12 + 6 = 18$ pins for the Elite-C need to be socket. Therefore, only $3$ MCU header sockets. Unfortunately, the pins in the provided are usually sold as a set of $24$, so there is bound to be some surplus. Alternatively, some LED or resistors legs can also do the job.
+- (Note 5): Depending on the geographical location, not only the prices part, but also the import tax, various other taxes, and shipping fees can add up to a non-negligible amount.
 
 ## Building steps
 
@@ -373,6 +375,8 @@ Finally, a small showcase of the 3D printing tool and process.
 
 Unline FDM-based (filament) prints, resin prints usually require some additional clean up and polish.
 In the specific case of the clear case for the Charybdis, it goes as far as requiring clear coating.
+
+- For this specific clear case, the resin material seems to have a higher melting temperature than FDM, thus requiring to set the iron around 250 degrees Celsius. To be safe, it is better to still start from 200, then increment the temperature slightly until the inserts can be melt-inserted into the case.
 
 ### 3. Installing the diodes [Left, Right]
 
