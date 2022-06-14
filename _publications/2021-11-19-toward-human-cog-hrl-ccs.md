@@ -1,8 +1,7 @@
 ---
 layout: single
 title: "Toward Human Cognition-inspired High-Level Decision Making For Hierarchical Reinforcement Learning Agents"
-excerpt: "Hierarchical reinforcement learning (HRL) methods aim to leverage the concept of temporal abstraction to efficiently solve long-horizon, sequential decision-making problems with sparse and delayed rewards. However, the decision-making process of the agent in most HRL methods is often based directly on low-level observations, while also using fixed temporal abstraction. We propose the hierarchical world model (HWM), which can capture more flexible high-level, temporally abstract dynamics, as well as low-level dynamics of the system.
-We posit such model is a natural extension to the HRL framework toward a decision-making process closer to that of humans."
+excerpt: "Proposes a hierarchical world model (HWM) which yields improved sample efficiency and final performance of model-based RL, while building toward a human-cognition inspired high-level decision-making by integrating the HWM with HRL."
 
 tags:
   - Reinforcement Learning
@@ -42,8 +41,9 @@ This is something we consider as superfluous for a high-level decision-making.
 Practically speaking, it would be akin to trying to plan the trip while focusing on all the aspects and components (itinerary planning, luggage packing, shirt folding, current location, etc...) to make a decision that only affects _luggage packing_ for example.
 {: .text-justify}
 
-The preliminary proposal that constitutes the core of this paper introduces the _hierarchical world model_ (HWM), which is geared to capture the dynamics of the task into a _hierarchically structured process_.
-By doing so, the HWM would learn provide _state spaces at different level of abstraction_ which will then be integrated with the HRL framework to produce an approximation of the aforementioned _high-level decision-making process_.
+The preliminary proposal that constitutes the core of this paper introduces the __hierarchical world model (HWM)__, which is geared to capture the dynamics of the task into a _hierarchically structured process_.
+By doing so, the HWM would provide _state spaces at different level of abstraction_.
+Then, integrating the HWM with the HRL framework would produce an approximation of the aforementioned _high-level decision-making process_ derived from humans.
 {: .text-justify}
 
 More specifically, let us consider the _Four Rooms_ task, as illustrated at layer (a) in the figure below.
