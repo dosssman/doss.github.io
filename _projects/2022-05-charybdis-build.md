@@ -218,18 +218,22 @@ moreover, depending on the builder's geographical location, there might be bette
 | [Clear UV Cut Coating](https://www.amazon.co.jp/GSI%E3%82%AF%E3%83%AC%E3%82%AA%E3%82%B9-Mr-%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%BC-UV%E3%82%AB%E3%83%83%E3%83%88-%E3%83%9B%E3%83%93%E3%83%BC%E7%94%A8%E4%BB%95%E4%B8%8A%E6%9D%90-B522/dp/B002DTL7Y4/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=13JXWXNBA6D7N&keywords=clear+uv+cut+coating&qid=1653307061&sprefix=clear+uv+cut+coatin%2Caps%2C202&sr=8-1) $\times$ 2                                                          |              |       ✓       |                              |  ~\\$10   |
 | [Sand paper for 3D print polish](https://www.amazon.co.jp/Aewio-%E8%80%90%E6%B0%B4-%E9%AB%98%E7%B4%9A%E3%81%AA%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9A%E3%83%BC%E3%83%91%E3%83%BC-1000-30%E6%9E%9A%E3%82%BB%E3%83%83%E3%83%88/dp/B08242YS2H/ref=sr_1_32_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=2PSNESBOH2Z8T&keywords=sand%2Bpaper%2Bpolish&qid=1653308227&sprefix=sand%2Bpaper%2Bpolis%2Caps%2C202&sr=8-32-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR1pTQTBXSURBTExEJmVuY3J5cHRlZElkPUEwMjc5MDk1MVkzWENXM1VWSU1SQSZlbmNyeXB0ZWRBZElkPUEzQ1BMSVMwTE4zTEYwJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)                                                           |              |       ✓       |                              |           |
 | [Mill-Max 0305 Holtite for Switches - Hotswap Sockets](https://keycapsss.com/keyboard-parts/parts/73/mill-max-0305-holtite-for-switches-hotswap-sockets?number=KC10042_50x) $\times$ 100 (Note 3)                    |              |               |              ✓               |  ~\\$18   |
-| [MCU header sockets $\times$ 3 + 24 pins $\times$ x 1.5](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-or-pins-mill-max-series-315?number=KC10067_pins) (Note 4)                                               |              |               |              ✓               |  ~\\$22   |
+| [MCU header sockets pair $\times$ 3 + 24 pins $\times$ x 3](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-or-pins-mill-max-series-315?number=KC10067_pins) (Note 4)                                               |              |               |              ✓               |  ~\\$50   |
 | Other fees (Note 5)                                                                               |      -       |       -       |              -               |  ~\\$60   |
-| Total                                                                                        |              |               |                              |  ~\\$661  |
+| Total                                                                                        |              |               |                              |  ~\\$689  |
 
 **Notes**
 - (Note 1): The case is not included. One might print their own case, or also purchase it directly from the website as a different kit. There is also a "Prebuilt" option.
 - (Note 2): General enough products that do not warrant a link ... unless one might be interested in also [DIY-ing the cables](https://www.zapcables.com/).
 - (Note 3): Already having some from the previous build, so 100 were enough. Strictly speaking however, one would need to order $56 \times 2$ thus $112$ to have enough for all the keys.
-- (Note 4): Rigorously speaking, only $12 + 6 = 18$ pins for the Elite-C need to be socket. Therefore, only $3$ MCU header sockets. Unfortunately, the pins in the provided are usually sold as a set of $24$, so there is bound to be some surplus. Alternatively, some LED or resistors legs can also do the job.
+- (Note 4): For the Shield v2, each Elite-C will require $12 + 12 + 5 = 29$ header sockets, and the corresponding 29 pins. 
+For the `Shield v1` version, the Elite-C requires $12 + 6$ header sockets, and the same amount of pins.
+The headers in the provided link are _12 pins header sockets_ that are sold as a pair. The pins are also sold as a set of $24$, to match the header sockets.
+As of 2022-06-14, it seems that the Shield v2 will be the default, so this post will use that one as reference from now on. This will unfortunately cause some surplus when ordering the components for socketing the Elite-Cs, but they can be usd to socke other components, such as the various ribbon cable, and RGB cables.
+To save up on the pins, one could also use some LED legs as instead.
 - (Note 5): Depending on the geographical location, not only the prices part, but also the import tax, various other taxes, and shipping fees can add up to a non-negligible amount.
 
-## Building steps
+## Build log
 
 **DISCLAIMER** This should not be considered as a build guide, but an additional reference with some notes regarding the special cases and problem encountered through the build, that might not be self-evident during the conceptual phase or planning of the keyboard build.
 Ultimately, it is more of an attempt to document what worked well during the process, as well as the mistakes made along the way.
@@ -241,6 +245,7 @@ In this build, the left side uses the **Scylla** board, while the right side use
 
 __TODO__: Forget not the disclaimer that this is not an official build order, but just the commitment of my build experience.
 Also insist on the difference with the standard build: hot-swapping, elite-c socketing, custom 3D printing and engraving.
+Also, might be worth mentioning that this build is based on Shield v2, which requires a different install, as well as he proper firmware to be used.
 
 - As it was the first time building such a keyboard, it might be safer to start with the *Scylla* sides that is relatively simpler, owing to the lack of trackball.
 
@@ -253,11 +258,12 @@ In an attempt to have an ever more customized keyboard, I also engraved my nickn
 **TODO**: Screenshot of the engraving, engraved files STL link for reference.
 {: .text-justify}
 
-Finally, as I planned to heavily rely on the tenting solution, I used the wrist rests open-sourced [here] **TODO: Add links to wrist rest STLs**, and manually added some infills to reduce resin usage, as well as might a little bit taller to better suit personal preference.
+Finally, as I planned to heavily rely on the tenting solution, I used the wrist rests open-sourced [here] **TODO: Add links to wrist rest STLs**.
+The wrist rests were made a bit taller to match with the tents height, with some manually added infills to save up resin.
 {: .text-justify}
 
 Printing with a FormLabs printer requires the STL files to be sliced with the *PreForm* software. 
-For this *Crystaldis* build, the aesthetics of the clear casse were relatively important. However, the 3D printing process requires support structures that would be spread arbitrarily over the cases, when using the automatic generation option in PreForm.
+For this *Crystaldis* build, the aesthetics of the clear case were relatively important. However, the 3D printing process requires support structures that would be spread arbitrarily over the cases, when using the automatic generation option in PreForm.
 Then, the supports must then be broken, which unfortunately leaves some small, but hard to miss dots and scratches both in and outside the cases.
 While the outside support remain can be polished out fairly easily, the ones in the inner side of the case can pose some challenge.
 I ended up manually editing the supports to make the polishing easier. On a side, the automatically generated supports can be overly generous, which ends up costing in resin.
@@ -353,8 +359,69 @@ Finally, a small showcase of the 3D printing tool and process.
 
 <figure class="one">
     <a href="/assets/projects/charybdis_build/buildlog/3dprinting/scylla_case_coating_test.JPG"><img src="/assets/projects/charybdis_build/buildlog/3dprinting/scylla_case_coating_test.JPG"></a>
-    <a href="/assets/projects/charybdis_build/buildlog/3dprinting/case_coating_1.JPG"><img src="/assets/projects/charybdis_build/buildlog/3dprinting/case_coating_1.JPG"></a>
-    <figcaption>Applying clear UV cut coating to the 3D printed case components and letting dry.</figcaption>
+    <figcaption>Testing the UV Clear coat. Greatly improves he aesthetics of the case.</figcaption>
+</figure>
+
+Unline FDM-based (filament) prints, resin prints would require some serious clean up at least.
+In this case were the case was printed from a clear / tranparent resin, the post processing not only requires a careful and thorough cleaning, but also polishing, and even coating.
+{: .text-justify}
+
+First, the case components were polished using sandpaper of roughness $800$ then $2000$.
+Dry polish revealed itself to be quite uncomfortable both to the touch, sight, and the ears (like bad chalk screaching on a blackboard).
+_Wet polishing_, on the other hand, allowes for better visibility of the remaining support while polishing, while making the overall process less iritative for the touch and the ears.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/polished_tents.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_tents.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_charybdis.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_charybdis.JPG"></a>
+    <figcaption>Preview of the polished tents and cases. Hardly pleasant to see or touch, for that matter.</figcaption>
+</figure>
+
+<figure class="third">
+    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_left_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_left_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_left_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_left_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_left_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_left_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_3.JPG"></a>
+    <figcaption>Freshly polished Scylla Left and Charybdis Right, milky texture and hardly transparent.</figcaption>
+</figure>
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_precoat.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_precoat.JPG"></a>
+    <figcaption>Freshly polished bottom plates, getting ready to coat.</figcaption>
+</figure>
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/coated_bottom_plates.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_bottom_plates.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_left_suspended.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_left_suspended.JPG"></a>
+    <figcaption>Once coated, we start to get something more aesthetically appealing, with transparent and glossy touch.</figcaption>
+</figure>
+
+<figure class="third">
+    <a href="/assets/projects/charybdis_build/showcase1/coated_tents.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_tents.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/coated_bottom_plates_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_bottom_plates_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_charybdis.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_charybdis.JPG"></a>
+    <figcaption>Final result of the coating.</figcaption>
+</figure>
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_left_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_left_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_left_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_left_2.JPG"></a>
+    <figcaption>Coated Scylla Left</figcaption>
+</figure>
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_2.JPG"></a>
+    <figcaption>Coated Charybdis Right</figcaption>
+</figure>
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/coated_trackball_assembly_components.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_trackball_assembly_components.JPG"></a>
+    <figcaption>Coated trackball top and bottom adapter, as well as sensor cover.</figcaption>
 </figure>
 
 <figure class="half">
@@ -369,14 +436,21 @@ Finally, a small showcase of the 3D printing tool and process.
     <figcaption>The three small components on the bottom are the printable BTU mods, used as replacement for the default bearing system for the trackball. Besides them are a few 3D printed key caps, which were not used in the end.</figcaption>
 </figure>
 
+
+**Bonus**:
+
 **TODO** Pictures of the printed hand wriste, before and after coating, as well as after setting the cushion.
 
 ### 2. Preparing the case
 
-Unline FDM-based (filament) prints, resin prints usually require some additional clean up and polish.
-In the specific case of the clear case for the Charybdis, it goes as far as requiring clear coating.
+Once the printed case is all clean and ready for assembly, the next step is to add the _inserts_ for the screws in the appropriate locations.
+For this specific clear case, the resin material seems to have a higher melting temperature than FDM-based prints.
+Therefore, it requiered setting the iron around $280$ to $300$ degrees Celsius instead.
 
-- For this specific clear case, the resin material seems to have a higher melting temperature than FDM, thus requiring to set the iron around 250 degrees Celsius. To be safe, it is better to still start from 200, then increment the temperature slightly until the inserts can be melt-inserted into the case.
+To be safe, it would be better to still start from 200 as per the guide, then increment the temperature slightly until the inserts can be melt-inserted into the case.
+The parts where the MCU shield has to be screwed later are especially fragile, and should be handled with the lowest possible temperature and gentleness during the insert.
+
+**TODO**: Add the pictures before and after inserts.
 
 ### 3. Installing the diodes [Left, Right]
 
