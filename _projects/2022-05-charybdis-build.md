@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Crystaldis: A Clear Case Charybdis, All-In-One Keyboard and Trackball!"
+title: "Crystaldis: A Clear Case Charybdis, All-In-One Keyboard and Trackball - Twin builds."
 excerpt: "Build log and notes for the clear cased Charybdis Ergonomic Mechanical Keyboard with integrated Trackball"
 header:
   teaser: assets/projects/charybdis_build/showcase2/main.jpg
@@ -78,7 +78,7 @@ This write up will focus on the most important points of the build and showcasin
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6703.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6703.JPG"></a>
     <figcaption>Scylla left: assembling all the electronics.</figcaption>
 </figure>
-not
+
 <figure class="half">
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6708.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6708.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase2/IMG_6710.JPG"><img src="/assets/projects/charybdis_build/showcase2/IMG_6710.JPG"></a>
@@ -357,9 +357,26 @@ Finally, a small showcase of the 3D printing tool and process.
     <figcaption>Charybdis bottom plate, adapter top and bottom, sensor covers freshly printed.</figcaption>
 </figure>
 
+<figure class="third">
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/printed_wrist_rest_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/printed_wrist_rest_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/printed_wrist_rest_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/printed_wrist_rest_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/printed_wrist_rest_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/printed_wrist_rest_3.JPG"></a>
+    <figcaption>Freshly 3D printed custom wrist wrest, with manually added infills.</figcaption>
+</figure>
+
+A quick note regarding printing such a wrist rest that has infills.
+Contrary to what is shown in the three pictures above, it is better to print object that have such kind of holes or infills with the flat part facing the printing state.
+Namely, with the wrist rest as above, the removal of the supports after printing is inconvenient, and is bound to leave some traces that would not see well with other mildly OCD fellows.
+{: .text-justify}
+
+In subsequent print, it was easier to orient the 3D model with the flat face parallel to the printing stage, and the supports connecting directly to it.
+This make the support removal easier, and their traces can be easily polished away.
+This also leaves the infill holes nice and clean, without scratches that would happen if the supports were set in those holes instead.
+{: .text-justify}
+
 <figure class="one">
     <a href="/assets/projects/charybdis_build/buildlog/3dprinting/scylla_case_coating_test.JPG"><img src="/assets/projects/charybdis_build/buildlog/3dprinting/scylla_case_coating_test.JPG"></a>
-    <figcaption>Testing the UV Clear coat. Greatly improves he aesthetics of the case.</figcaption>
+    <figcaption>Preliminary test of the UV Clear coat. Greatly improves the aesthetics of the case.</figcaption>
 </figure>
 
 Unline FDM-based (filament) prints, resin prints would require some serious clean up at least.
@@ -372,55 +389,55 @@ _Wet polishing_, on the other hand, allowes for better visibility of the remaini
 {: .text-justify}
 
 <figure class="one">
-    <a href="/assets/projects/charybdis_build/showcase1/polished_tents.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_tents.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_charybdis.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_charybdis.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_tents.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_tents.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_charybdis.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_charybdis.JPG"></a>
     <figcaption>Preview of the polished tents and cases. Hardly pleasant to see or touch, for that matter.</figcaption>
 </figure>
 
 <figure class="third">
-    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_left_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_left_1.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_left_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_left_2.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_scylla_left_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_scylla_left_3.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_1.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_2.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_left_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_left_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_left_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_left_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_left_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_scylla_left_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_3.JPG"></a>
     <figcaption>Freshly polished Scylla Left and Charybdis Right, milky texture and hardly transparent.</figcaption>
 </figure>
 
 <figure class="half">
-    <a href="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_1.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_bottom_plates_2.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_precoat.JPG"><img src="/assets/projects/charybdis_build/showcase1/polished_charybdis_right_precoat.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_bottom_plates_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_bottom_plates_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_bottom_plates_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_bottom_plates_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_precoat.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/polished_charybdis_right_precoat.JPG"></a>
     <figcaption>Freshly polished bottom plates, getting ready to coat.</figcaption>
 </figure>
 
 <figure class="half">
-    <a href="/assets/projects/charybdis_build/showcase1/coated_bottom_plates.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_bottom_plates.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_left_suspended.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_left_suspended.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_bottom_plates.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_bottom_plates.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_left_suspended.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_left_suspended.JPG"></a>
     <figcaption>Once coated, we start to get something more aesthetically appealing, with transparent and glossy touch.</figcaption>
 </figure>
 
 <figure class="third">
-    <a href="/assets/projects/charybdis_build/showcase1/coated_tents.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_tents.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/coated_bottom_plates_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_bottom_plates_2.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_charybdis.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_charybdis.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_tents.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_tents.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_bottom_plates_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_bottom_plates_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_charybdis.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_charybdis.JPG"></a>
     <figcaption>Final result of the coating.</figcaption>
 </figure>
 
 <figure class="half">
-    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_left_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_left_1.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/coated_scylla_left_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_scylla_left_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_left_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_left_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_left_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_scylla_left_2.JPG"></a>
     <figcaption>Coated Scylla Left</figcaption>
 </figure>
 
 <figure class="half">
-    <a href="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_1.JPG"></a>
-    <a href="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_charybdis_right_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_charybdis_right_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_charybdis_right_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_charybdis_right_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_charybdis_right_2.JPG"></a>
     <figcaption>Coated Charybdis Right</figcaption>
 </figure>
 
 <figure class="one">
-    <a href="/assets/projects/charybdis_build/showcase1/coated_trackball_assembly_components.JPG"><img src="/assets/projects/charybdis_build/showcase1/coated_trackball_assembly_components.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_trackball_assembly_components.JPG"><img src="/assets/projects/charybdis_build/showcase1/1_print_polish_coat/coated_trackball_assembly_components.JPG"></a>
     <figcaption>Coated trackball top and bottom adapter, as well as sensor cover.</figcaption>
 </figure>
 
@@ -430,6 +447,12 @@ _Wet polishing_, on the other hand, allowes for better visibility of the remaini
     <figcaption>Comparison of coated Scylla left side board and un-coated Charybdis right side board. The clear Clear coating is indispensable to get the best transparency and gloss effect for a clear case.</figcaption>
 </figure>
 
+There was an attempt at printing custom key caps. While definitely usable, the results are not as good as commercially available alternative.
+It might be caused by using the default layer width of $0.1$mm when printing, but there were visible lines that could be felt on the surface of the keys.
+While this detail could be polished away, it defeats the purpose if the key cap is expected to have bump to serve as *landmark* for the home row.
+The sharp edges of the key caps would usually be botched during the printing too.
+{: .text-justify}
+
 <figure class="half">
     <a href="/assets/projects/charybdis_build/buildlog/3dprinting/3d_printed_keycaps_1.JPG"><img src="/assets/projects/charybdis_build/buildlog/3dprinting/3d_printed_keycaps_1.JPG"></a>
     <a href="/assets/projects/charybdis_build/buildlog/3dprinting/3d_printed_keycaps_2.JPG"><img src="/assets/projects/charybdis_build/buildlog/3dprinting/3d_printed_keycaps_2.JPG"></a>
@@ -437,20 +460,49 @@ _Wet polishing_, on the other hand, allowes for better visibility of the remaini
 </figure>
 
 
-**Bonus**:
-
-**TODO** Pictures of the printed hand wriste, before and after coating, as well as after setting the cushion.
-
 ### 2. Preparing the case
 
 Once the printed case is all clean and ready for assembly, the next step is to add the _inserts_ for the screws in the appropriate locations.
 For this specific clear case, the resin material seems to have a higher melting temperature than FDM-based prints.
 Therefore, it requiered setting the iron around $280$ to $300$ degrees Celsius instead.
+{: .text-justify}
 
 To be safe, it would be better to still start from 200 as per the guide, then increment the temperature slightly until the inserts can be melt-inserted into the case.
 The parts where the MCU shield has to be screwed later are especially fragile, and should be handled with the lowest possible temperature and gentleness during the insert.
+{: .text-justify}
 
-**TODO**: Add the pictures before and after inserts.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_right_inserted.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_right_inserted.JPG"></a>
+    <figcaption>Preview of both the left and right cases after the inserts were melted in.</figcaption>
+</figure>
+
+**[Left side]**
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserts.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserts.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserted_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserted_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserted_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserted_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserted_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/left_scylla_belly_up_inserted_3.JPG"></a>
+    <figcaption>Scylla Left before and after melting in the inserts.</figcaption>
+</figure>
+
+**[Right side]**
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserts.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserts.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserted_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserted_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserted_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserted_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserted_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_charybdis_belly_up_inserted_3.JPG"></a>
+    <figcaption>Charybdis Right before and after melting in the inserts.</figcaption>
+</figure>
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_top_inserts.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_top_inserts.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_top_inserted.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_top_inserted.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserts.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserts.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserted.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserted.JPG"></a>
+    <figcaption>Charybdis Right: Trackball top and bottom adapter before and after meting in the inserts.</figcaption>
+</figure>
 
 ### 3. Installing the diodes [Left, Right]
 
