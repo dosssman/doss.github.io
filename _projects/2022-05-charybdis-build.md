@@ -501,7 +501,7 @@ The parts where the MCU shield has to be screwed later are especially fragile, a
     <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_top_inserted.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_top_inserted.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserts.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserts.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserted.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/right_sensor_bottom_inserted.JPG"></a>
-    <figcaption>Charybdis Right: Trackball top and bottom adapter before and after meting in the inserts.</figcaption>
+    <figcaption>Charybdis Right: Trackball top and bottom adapter before and after melting in the inserts.</figcaption>
 </figure>
 
 ### 3. Installing the diodes [Left, Right]
