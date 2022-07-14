@@ -504,9 +504,100 @@ The parts where the MCU shield has to be screwed later are especially fragile, a
     <figcaption>Charybdis Right: Trackball top and bottom adapter before and after melting in the inserts.</figcaption>
 </figure>
 
+We take this opportunity to also install the anti-slip pads on the bottom plates, as well as the bottom facing sides of the the tents.
+While we use black colored ones here, transparent one should be harmonize even better with the clear case.
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/antislip_pads.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/antislip_pads.JPG"></a>
+    <figcaption>Anti-slip pads and bottom pla with pad slots.</figcaption>
+</figure>
+
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/bottom_plates_with_antislip_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/bottom_plates_with_antislip_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/bottom_plates_with_antislips_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/bottom_plates_with_antislips_2.JPG"></a>
+    <figcaption>Bottom plates with the anti-slip pads installed.</figcaption>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/tents_with_antislips_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/tents_with_antislips_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/tents_with_antislips_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/tents_with_antislips_2.JPG"></a>
+    <figcaption>Anti-slip pads installed on the bottom of the tents.</figcaption>
+</figure>
+
 ### 3. Installing the diodes [Left, Right]
 
+**[Left side]**
+
+Start by making sure of the orientation: the "Left" label shold be the one facing up.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_pcb_boards.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_pcb_boards.JPG"></a>
+    <figcaption>Main PCB and thumb cluster for the Left Scylla.</figcaption>
+</figure>
+The main PCBs require the three legged diodes to be soldered at the prepared locations.
+The two legged diodes go onto the thumb cluster PCBs. Note that there is a very thin grey line on the two legged diodes, which has to be aligend with the soldered pad marked with the white silk line on the thumb cluster PCBs.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/diode_types.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/diode_types.JPG"></a>
+    <figcaption>A close up on the diodes: two legged diodes for the thumb cluster PCBs, and three legged diodes for the main PCBs.</figcaption>
+</figure>
+
+We start by soldering the diodes on the thumb cluster, as a for of warm up or practice.
+To do so, we start by applying a touch of tin on one of the pad for each diode location, namely the one with the white silk line.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_1.JPG"></a>
+</figure>
+Next, with a pair of tweezers, we hold the the diode down while the marked leg touches the tin on the pad, and gently touch both the leg and the pad, so that the tin melts and holds them together.
+The iron tip is removed first, while the tweezers hold the diodes until the tin hardens.
+Then, we can release the diode which will be holding well enogh to the board so that we can solder the other leg without risking the diode moving around.
+The left thumb cluster will require five diodes, each one corresponding to one key switch.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_4.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_4.JPG"></a>
+</figure>
+
+For the main PCB, the three legged dioded make it impossible to mistake the orientation.
+We use the same technique to solder down the three legged diodes, starting with the single leg.
+The main PCB will take twelve of such diodes, with each one seemingly handling two different key switches (?).
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_2.JPG"></a>
+</figure>
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_main_pcbs_with_diodes.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_main_pcbs_with_diodes.JPG"></a>
+    <figcaption>Left thumb cluster and main PCBs with all the diodes soldered.</figcaption>
+</figure>
+
+**[Right side]**
+
+
 ### 4. Installing the RGB components [Optional] [Left, Right]
+
+RGB support is orthogonal to the functional aspects of the keyboard, but we gotta move with the [trends of the time](https://www.youtube.com/watch?v=M30fAvrpj18).
+
+Beside the RGB LEDs themselves, each of the side thumb cluster and main PCBs will require one capacitor and one resistor.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/rgb_components.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/rgb_components.JPG"></a>
+    <figcaption>From left to right: the resistor, the capcitor, and the (four legged) RGB LED.</figcaption>
+</figure>
+
+**[Left side]**
+
+Starting again with the left thumb cluster PCB, the resistor and the capacitor are installed using the same method as for the two legged diodes.
+Finally, we add the five RGB LEDs, one to backlit each key.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_cluster_rgb_leds.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_cluster_rgb_leds.JPG"></a>
+</figure>
+
+The same goes for the main PCB: one resitor and one capacitor, followed by 24 keys.
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_main_pcb_res_capa_rgb_leds_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_main_pcb_res_capa_rgb_leds_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_main_pcb_res_capa_rgb_leds_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_main_pcb_res_capa_rgb_leds_2.JPG"></a>
+</figure>
+
+**[Right side]**
 
 ### 5. Installing Mill-Max sockets for hot-swap [Optional] [Left, Right]
 
