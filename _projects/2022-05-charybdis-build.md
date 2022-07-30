@@ -506,6 +506,7 @@ The parts where the MCU shield has to be screwed later are especially fragile, a
 
 We take this opportunity to also install the anti-slip pads on the bottom plates, as well as the bottom facing sides of the the tents.
 While we use black colored ones here, transparent one should be harmonize even better with the clear case.
+{: .text-justify}
 
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/2_prepare_case/antislip_pads.JPG"><img src="/assets/projects/charybdis_build/showcase1/2_prepare_case/antislip_pads.JPG"></a>
@@ -528,12 +529,14 @@ While we use black colored ones here, transparent one should be harmonize even b
 **[Left side]**
 
 Start by making sure of the orientation: the "Left" label shold be the one facing up.
+{: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_pcb_boards.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_pcb_boards.JPG"></a>
     <figcaption>Main PCB and thumb cluster for the Left Scylla.</figcaption>
 </figure>
 The main PCBs require the three legged diodes to be soldered at the prepared locations.
 The two legged diodes go onto the thumb cluster PCBs. Note that there is a very thin grey line on the two legged diodes, which has to be aligend with the soldered pad marked with the white silk line on the thumb cluster PCBs.
+{: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/diode_types.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/diode_types.JPG"></a>
     <figcaption>A close up on the diodes: two legged diodes for the thumb cluster PCBs, and three legged diodes for the main PCBs.</figcaption>
@@ -541,6 +544,7 @@ The two legged diodes go onto the thumb cluster PCBs. Note that there is a very 
 
 We start by soldering the diodes on the thumb cluster, as a for of warm up or practice.
 To do so, we start by applying a touch of tin on one of the pad for each diode location, namely the one with the white silk line.
+{: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_1.JPG"></a>
 </figure>
@@ -548,6 +552,7 @@ Next, with a pair of tweezers, we hold the the diode down while the marked leg t
 The iron tip is removed first, while the tweezers hold the diodes until the tin hardens.
 Then, we can release the diode which will be holding well enogh to the board so that we can solder the other leg without risking the diode moving around.
 The left thumb cluster will require five diodes, each one corresponding to one key switch.
+{: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_2.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_thumb_cluster_diodes_3.JPG"></a>
@@ -557,6 +562,7 @@ The left thumb cluster will require five diodes, each one corresponding to one k
 For the main PCB, the three legged dioded make it impossible to mistake the orientation.
 We use the same technique to solder down the three legged diodes, starting with the single leg.
 The main PCB will take twelve of such diodes, with each one seemingly handling two different key switches (?).
+{: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_1.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_installing_diodes/left_main_pcb_diodes_2.JPG"></a>
@@ -573,8 +579,10 @@ The main PCB will take twelve of such diodes, with each one seemingly handling t
 ### 4. Installing the RGB components [Optional] [Left, Right]
 
 RGB support is orthogonal to the functional aspects of the keyboard, but we gotta move with the [trends of the time](https://www.youtube.com/watch?v=M30fAvrpj18).
+{: .text-justify}
 
 Beside the RGB LEDs themselves, each of the side thumb cluster and main PCBs will require one capacitor and one resistor.
+{: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/rgb_components.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/rgb_components.JPG"></a>
     <figcaption>From left to right: the resistor, the capcitor, and the (four legged) RGB LED.</figcaption>
@@ -584,13 +592,16 @@ Beside the RGB LEDs themselves, each of the side thumb cluster and main PCBs wil
 
 Starting again with the left thumb cluster PCB, the resistor and the capacitor are installed using the same method as for the two legged diodes.
 Finally, we add the five RGB LEDs, one to backlit each key.
+{: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_1.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_rescapa_2.JPG"></a>
     <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_cluster_rgb_leds.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_cluster_rgb_leds.JPG"></a>
+{: .text-justify}
 </figure>
 
 The same goes for the main PCB: one resitor and one capacitor, followed by 24 keys.
+{: .text-justify}
 
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_main_pcb_res_capa_rgb_leds_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_main_pcb_res_capa_rgb_leds_1.JPG"></a>
@@ -601,13 +612,261 @@ The same goes for the main PCB: one resitor and one capacitor, followed by 24 ke
 
 ### 5. Installing Mill-Max sockets for hot-swap [Optional] [Left, Right]
 
+This build uses Mill-Max sockets to allow hot-swapping of the key without even disassembling the keyboard case at best.
+At worst, it allows to chnage the keyswitches without soldering.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_millmax_show.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_millmax_show.JPG"></a>
+    <figcaption>Mill-Max sockets for the key switches.</figcaption>
+</figure>
+
+**TODO**: This should be added to the caveats, as well as the relevant part of the case and switch assembly.
+Namely, the Charybdis or the Scylla use flexible PCBs that are expected to be held to case by the switches once installed.
+THis can be hard to realize especially for the top and bottom row, since the PCB's inertia creates a force that the keyswitches inserted into the Mill-Max sockets might not compensate for.
+This can result in either the switch and PCB just not maintaining contact with the switch legs, or the PCBs slowly sliding of the switch's leg and losing contact after some time.
+{: .text-justify}
+
+**[Left side]**
+After suspending the PCB while keeping the bottom part accessible, the Mill-Max sockets are inserted according to the key switch legs layout.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_millmax_top.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_thumb_millmax_top.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_installing_rgb/left_thumb_millmax_bottom.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_thumb_millmax_bottom.JPG"></a>
+    <figcaption>Installing the Mill-Max sockets into the thumb cluster of the Scylla left side.</figcaption>
+</figure>
+
+After this step, there was a little bit of experimentation to determine the best way to solder the sockets that will allow the key switches to fit on the PCBs as flush as possible. Otherwise, different keys would have different height releatively to the board, which would be hardly ergonomic.
+{: .text-justify}
+
+**1.** For the first method, tin up all the sockets to the board so that they hold to it, allowing us to flip the board with ease. Once the board is flipped, solder the sockets from that side while pressing hard on the PCB to make sure the sockets are flush with the table surface.
+The caveats with this method is that if not pressed hard enough, the sockets might not be flush with the PCB from the top perspective.
+Another one is that it requires two soldering steps, which will likely result in an above average amount of tin spent.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_thumb_socket_soldered_top.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_thumb_socket_soldered_top.JPG"></a>
+    <figcaption>Slightly tinned top side of the sockets. The board can then be handled more easily without risking the socekts flying away.</figcaption>
+</figure>
+
+**2.** For the second method, once the sockets are installed in the holes, find some hard ernough card board to place on top of the PCB and sockets, then hold it tight and flip the board to access the bottom side.
+From there on, soldler the sockets.
+While this method is cleaner than the first one, it might be challenging to flip the board in the firstp lace. Also, while soldering, rash handling dislogdge the sockets that are not yet soldered, and require to flip the board and insert the sockets again.
+This can result in lost sockets too.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_thumb_socket_soldered_bottom.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_thumb_socket_soldered_bottom.JPG"></a>
+    <figcaption>Mill-Max sockets soldered from the bottom on the thumb cluster of the Scylla left side.</figcaption>
+</figure>
+
+Same process for the Scylla left PCB.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_2.JPG"></a>
+    <figcaption>Top and bottom view of the Mill-Max sockets after insertion, before soldering anything.</figcaption>
+</figure>
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_soldered.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_soldered.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_soldered_closeup.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_top_soldered_closeup.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_soldered.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_soldered.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_soldered_closeup.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_millmax/left_scylla_pcb_socket_bottom_soldered_closeup.JPG"></a>
+    <figcaption>Top and bottom view of the Mill-Max sockets after insertion, after soldering everything, with close ups.</figcaption>
+</figure>
+
+**[Right side]**
+
 ### 6. Ribbon cables and RGB cables [Left, Right]
 
-### 7. Installing the Elite-C MCU [Left, Right]
+Next, the ribbon cable that connect the main PCB to the thumb cluster as well as the MCU can be installed.
+This step can also be tied with the RGB cables install as well, although RGB is a totally optional feature.
+{: .text-justify}
 
-### 7.5 Installing the trackball sensor [Right side only]
+The building kit came with a _band_ of ribbon cables that had to be cut into smaller bands of two sets of 6-6-5 wires, as show in the picture below.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_cables_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_cables_2.JPG"></a>
+    <figcaption>Left Scylla PCB with the required 6-6-5 wires ribbon cables already cut.</figcaption>
+</figure>
+While it is convenient to use those ribbon cables during the build, nothing stops one from using any other cables type, as long as it conduct electrical signal.
+Go crazy.
+{: .text-justify}
 
-### 8. Assembling the case [Left, Right]
+For a given side, the RGB cables come in two sets.
+- a set of black (GND), red (VCC or 5V), yellow (DIN / DOUT) to connect the PCB to the MCU
+- and a set of ribbon cables with three wires to connect the main PCB to the thumb cluster one.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_cables_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_cables_1.JPG"></a>
+    <figcaption>Left Scylla PCB with RGB cables in focus.</figcaption>
+</figure>
+
+
+**[Left side, core cables]**
+If building alone, it might be tricky to keep the ribbon cables in place while doing the soldering, so improving a support structure might come in handy.
+(In case one does not have those _octopus-like helper clipping hands_.)
+In this case, this is done using book holding stands.
+In any case, cable installation is quite straight forward: 
+- match the number of wires in the ribbon cable with the number of wholes on the board, 
+- insert the ribbon cable from the backside (side opposed to the one where the switches will be plugged)
+- tin one of the wires to its hole on the board while aligning the other. Once the tin hardens, the other wires can be soldered painlessly
+- trim the sharp side of the wires to make the whole as flush as possible.
+Then the process is repeated for the other ribbon cables.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_cable_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_cable_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_cable_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_cable_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_cable_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_cable_3.JPG"></a>
+    <figcaption>Setting up the ribbon cables for soldering to the main PCB.</figcaption>
+</figure>
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_soldered_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_soldered_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_soldered_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_soldered_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_soldered_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_ribbon_soldered_3.JPG"></a>
+    <figcaption>Soldering the ribon cables</figcaption>
+</figure>
+
+**[Left side, RGB cables]**
+
+The 3 wires ribbon cable is to be installed on the backside of the board, bottom left on the picture below.
+For black-red-yellow triplet of cables is to be installed next to the capactior and resistors, also on the backside of the board.
+As per electronics convention, match black, red, yellow to GND, VCC or 5V, and DIN or DOUT.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_rgb_cable_installed.JPG"><img src="/assets/projects/charybdis_build/showcase1/6_ribbon_rgb_cables/left_scylla_rgb_cable_installed.JPG"></a>
+    <figcaption>Soldered RGB cables: bottom left and top rigth.</figcaption>
+</figure>
+
+**[Right side]**
+
+### 7. Connecting the thumb cluser [Left, Right]
+
+**[Left side]**
+
+**DISCLAIMER** Follow the [official build guide](https://docs.bastardkb.com/hc/en-us/sections/4404710379666-Charybdis) for this particular sensitive part.
+This post is to be used as reference for prospective builder, at best.
+{: .notice--danger}
+{: .text-justify}
+
+The Scylla left's thumb cluster has to be connect with one of the 6 wire ribon cable coming from the main PCB, and also the 3 wire ribbon cable in case of an RGB backlit key build.
+{: .text-justify}
+
+As rules of thumb:
+- the ribbon cables connects the main PCB side marked as **(left)** to the thumb cluster board side also marked as **(left)**.
+- align the **R5** pin on the main PCB to **R5** pin on the thumb cluster.
+{: .text-justify}
+
+For the RGB *3 wires ribon cable*, the wiring is pretty straight forward: from main PCB to thumb cluster: GND to GND, VCC to VCC, and the last one would be either DIN -> DIN or DOUT on the thumb cluster.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/7_connecting_thumb/left_scylla_thumb_connect_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/7_connecting_thumb/left_scylla_thumb_connect_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/7_connecting_thumb/left_scylla_thumb_connect_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/7_connecting_thumb/left_scylla_thumb_connect_2.JPG"></a>
+    <figcaption>Connect the left thumb cluster to the corresponSoldered RGB cables: bottom left and top rigth.ding main PCB.</figcaption>
+</figure>
+
+**[Right side]**
+
+### 8. Installing the Elite-C MCU [Left, Right]
+
+With the boards related components installed, and the boards themselves partially assembled, the next step is to prepare the MCU shield and finalize the electronics of the keyboard.
+{: .text-justify}
+
+**TODO** add links.
+This build (showcase 1)uses an Elite C as MCU, with the Shield v2.
+Meanwhile, the earlier build (showcase 2) actually uses a v1 shield.
+The Shield v2 enables easier and cleaner installation.
+Namely, unlike the v1, the shield has holes for all the pins that come from the MCU, and the ribbon cables do not have to be soldered directly onto the Elite C MCU.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_sockets_pin.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_sockets_pin.JPG"></a>
+    <figcaption>Shield v2 with the necessary header sockets, as well as the pins.</figcaption>
+</figure>
+**TODO**: Maybe add pics for the Shield v1. But might induce some confusion.
+
+In this build, the MCU is socketed instead of directly soldered to the shield.
+This would allow easier repair, when the USB C port breaks for example, or when re-using the MCU in other keyboard build.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_in_case.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_in_case.JPG"></a>
+    <figcaption>Shield v2 for Elite C MCU</figcaption>
+</figure>
+
+Installing the header sockets for the MCU is straight forward: insert, flip, and solder.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_4.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_installing_sockets_4.JPG"></a>
+</figure>
+
+The Elite C used for this build is actually from the previous [ErgoDash keyboard](), where the pins were already installed into the lateral sides of the Elite C.
+Henceforth, only the bottom five pins have to be installed to complete this part.
+{: .text-justify}
+
+When socketing for the first time, this guide was quite helpful. **TODO: inssert link to Splitkb ??? guide for socketing**
+{: .text-justify}
+
+Before socekting anythign, makes ure to add some tape between the headers socket holes and the MCU.
+Otherwise, even when soldering the pins on the other side of the MCU, some tin will likely find it way in between the hole and the side of the pin that sits inside, completely defeating the purpose of socketing in the first place.
+A lesson that cost an ELite C was learned...
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_4.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_4.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_5.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_5.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_6.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_elite_c_ping_solder_6.JPG"></a>
+    <figcaption>Installing the pins on the remaining five bottom hole of the Elite C: applying some tape over the header sockets; insert the pins through the tape into the socket holes; fit the Elite C over the header sockets and pins; solder the pins; gently remove the Elite C, remove the tape, and finally insert the Elite C back into the socketed headers.</figcaption>
+</figure>
+
+With the Elite C setup, only the reset button, as well as the TRRS jack remain.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_jack_button.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_jack_button.JPG"></a>
+</figure>
+
+Soldering the button is straight forward.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_reset_button_soldered.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_reset_button_soldered.JPG"></a>
+</figure>
+
+The TRRS jack, however, is better installed directly into the case.
+Then, the shield is made to fit with the position of the jack, while at the same time aligning the USB C hole in the case.
+Just to be sure, it might be desirable to also plug in the cable to make sure that everythign is aligned toward the end goal of the build.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_4.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_4.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_5.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_trrs_soldering_5.JPG"></a>
+    <figcaption>Installing the TRRS jack while making sure it aligns with all the holes in the case.</figcaption>
+</figure>
+
+The MCU shield is now ready to be incorporated with the other parts of the board.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_finalized_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_finalized_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_finalized_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/8_elite_c/shield_v2_finalized_2.JPG"></a>
+    <figcaption>Finalized MCU Shield v2 for the Scylla left side.</figcaption>
+</figure>
+
+### 9. Electronics assembly and testing
+
+### 8.5 Installing the trackball sensor [Right side only]
+
+### 10. Assembling the case [Left, Right]
 
 ## Key layout and firmware 
 
