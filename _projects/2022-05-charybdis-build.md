@@ -1112,7 +1112,7 @@ We can also take this opportunity to check that the trackball makes the cursor m
 </figure>
 
 <figure class="one">
-    <a href="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/righty_charybdis_qmk_test.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/righty_charybdis_qmk_test.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/righty_charybdis_qmk_test.png"><img src="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/righty_charybdis_qmk_test.png"></a>
     <figcaption>Testing the right half board with the QMK configurator by shorting the switches hole, before mounting the board into the case.</figcaption>
 </figure>
 
