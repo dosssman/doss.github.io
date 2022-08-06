@@ -60,7 +60,7 @@ This write-up will focus on the most important points of the build and showcase 
     <a href="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_1.JPG"></a>
 </figure>
 
-and much more in the [buiyld log](#1-3d-printing-the-cases-optional-left-right).
+and much more in the [build log](#1-3d-printing-the-cases-optional-left-right).
 
 ## Showcase #2
 
