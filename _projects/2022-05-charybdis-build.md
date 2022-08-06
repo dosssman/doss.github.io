@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Crystaldis: A Clear Case Charybdis, All-In-One Keyboard and Trackball - Twin builds."
+title: "Charybdis Build Log"
 excerpt: "Build log and notes for the clear cased Charybdis Ergonomic Mechanical Keyboard with integrated Trackball"
 header:
   teaser: /assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_1.JPG
