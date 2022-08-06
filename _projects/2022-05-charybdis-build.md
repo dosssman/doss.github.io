@@ -3,7 +3,7 @@ layout: single
 title: "Crystaldis: A Clear Case Charybdis, All-In-One Keyboard and Trackball - Twin builds."
 excerpt: "Build log and notes for the clear cased Charybdis Ergonomic Mechanical Keyboard with integrated Trackball"
 header:
-  teaser: assets/projects/charybdis_build/showcase2/main.jpg
+  teaser: /assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_1.JPG
 tags:
     - Mechanical Keyboard
     - DIY
@@ -29,7 +29,38 @@ This write up will focus on the most important points of the build and showcasin
 <!-- <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/main.jpg"><img src="/assets/projects/charybdis_build/showcase1/main.jpg"></a>
 </figure> -->
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_1.JPG"></a>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_2.JPG"></a>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_unplugged.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_unplugged.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_5.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_5.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_8.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_8.JPG"></a>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_keycaped_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_keycaped_3.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_switches_mounted_tented_5.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_switches_mounted_tented_5.JPG"></a>
+</figure>
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charibdis_bottom_closed.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charibdis_bottom_closed.JPG"></a>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_1.JPG"></a>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_5.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_5.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_1.JPG"></a>
+</figure>
 
+and much more in the [build log](#1-3d-printing-the-cases-optional-left-right).
 ## Showcase #2
 
 **Note**: Unlike the build in previous show case, this one uses Kaihl Box Brown switches.
@@ -130,13 +161,11 @@ This write up will focus on the most important points of the build and showcasin
     <figcaption>Charybdis right getting ready to add the key caps.</figcaption>
 </figure>
 
-**TODO** Get some pictures with the tentings on.
-
 ## Specifications
 
 **Model:** [Charybdis 4x6](https://bastardkb.com/charybdis/)
 
-**Case:**: 3D printed with Formlabs 3, Clear Resin v4, and custom embossed STL files [Left]() [Right]() (**TODO** Add link to section)
+**Case:**: 3D printed with Formlabs 3, Clear Resin v4, and custom embossed STL files [Left](https://github.com/dosssman/Charybdis/blob/dosssman/files/4x6_dosssman/scylla82_left_embossed.stl) [Right](https://github.com/dosssman/Charybdis/blob/dosssman/files/4x6_dosssman/charybdis3_v131_right_embossed.stl)
 
 **Switches:**: Kaihl Pro Purple x 56
 
@@ -144,14 +173,14 @@ This write up will focus on the most important points of the build and showcasin
 
 **Other:**
 - Clear case
-- Trackball with 3D printed BTU instead of the default bearings **TODO: Add links**
+- Trackball with [3D printed BTU instead](https://github.com/Bastardkb/Charybdis/tree/main/files/mods/printable-btu) of the default bearings
 - RGB key back-light
 - Hot-swappable key switches
 - Socketed Elite-C micro-controller (MCU)
 
 ## Benefits
 
-- Departing from the tradditional staggered key layout toward _columnar_ or _staggered ortholinear_ (such as ErgoDash too) is a net positive. Charybdis brings this aspect one step further by adding depths to match the different lengths of each finger.
+- Departing from the traditional staggered key layout toward _columnar_ or _staggered ortholinear_ (such as ErgoDash too) is a net positive. Charybdis brings this aspect one step further by adding depths to match the different lengths of each finger.
 - Split and tented keyboard allows for healthier and more comfortable posture. Namely, pronation of the forearms is reduced thanks to the tenting that makes the board more *vertical*. Meanwhile, having a split keyboard let's you keep the back straight, the chest out and the arms wide and stretched, which should be a more natural position overall. [More intuitive explanation on the benefits here](https://www.youtube.com/watch?v=i4TCbc9oB1E&ab_channel=ShortCircuit).
 - The thumb, criminally underused on traditional keyboards is empowered with thumb key clusters, increasing typing efficiency.
 - Frees up some real estate on the desk, makes it more flexible.
@@ -166,17 +195,13 @@ This write up will focus on the most important points of the build and showcasin
 - Requires some technical skill (electronics assembly and soldering, diagnosing assembly problem, etc...). Compared to the ErgoDash, the Charybdis has a higher difficulty namely due to the presence of a trackball and flexible PCB mounting (especially if doing a hot-swap key switch build).
 - For someone that has gotten used to standard _staggered_ keyboard layouts, there will be some learning curve for the new layout. This barely passes as a caveat, as the comfort of using an ergonomic keyboard vastly makes up for it in the medium to long-term.
 - _Once you try it, you will never want to come back_. In case one has to work at different physical locations, the high price and time investment makes having duplicate configuration prohibitive. While proficiency with standard keyboard will hardly be affected, it becomes very unpleasant to use them. In my personal case, having to use a standard case leads to unending rants and bout of annoying _ergo keyboard master race elitism_ that probably annoys the people around. Using laptop keyboards also becomes a similarly unpleasant (and potentially painful) activity.
-**TODO**: Insert the "They don't know their keyboard is shit meme ?
+{: .text-justify}
 
 ## Highlights of the building experience
 
 - When 3D printing your own case, make sure of the orientation of each case and the corresponding tenting and bottom plate.
-- To maximize aesthetic of the clear case, the 3D printing supports are better set manually to optimize the polishing process.
-
-**TODO** particularly difficult things related to this build.
-
-- For a clear build, manual positioning of the printing support to optimize the aesthetics might be better than automatically generated.
-- When doing a hot-swapper key switches build, depending on how tight the hot-swap sockets are can lead to flexible PCB *sliding off* the key switches' pin.
+- To maximize aesthetic of the clear case, the 3D printing supports are better set manually to optimize the polishing process. Automatically generated support will try to satisfy the algorithm that checks the support structure of the print, which I suspect is set to a very conservative standard by the company, to avoid liability in case of failure to print.
+- When doing a build with Mill-Max sockets for hot-swappable key switches, the PCB might not hold on tight enough to the case, which can result in some key not working after the build. So workaround is to either use some (gorilla) tape or hot glue to fix the PCB to the case.
 
 # Build notes (Long version)
 
@@ -242,24 +267,19 @@ Ultimately, it is more of an attempt to document what worked well during the pro
 
 Rigorously, the [**Charybdis**](https://bastardkb.com/charybdis/) refers to the side of the board that holds the trackball, while the other side is a [**Scylla**](https://bastardkb.com/scylla/) board, which does not have a trackball.
 In this build, the left side uses the **Scylla** board, while the right side uses the **Charybdis** with the trackball.
-
-__TODO__: Forget not the disclaimer that this is not an official build order, but just the commitment of my build experience.
-Also insist on the difference with the standard build: hot-swapping, elite-c socketing, custom 3D printing and engraving.
-Also, might be worth mentioning that this build is based on Shield v2, which requires a different install, as well as he proper firmware to be used.
-
-- As it was the first time building such a keyboard, it might be safer to start with the *Scylla* sides that is relatively simpler, owing to the lack of trackball.
+This build has the optional RGB, MCU and key switches socketing, and custom 3D printed cases.
 
 ### 1. 3D printing the cases [Optional] [Left, Right]
 
 For this build, the clear cases were printed using a FormLabs 3 SLA printer. THe material used was the *Clear v4 Resin*.
 The files to 3D print are generously provided on the [official github repository](https://github.com/Bastardkb/charybdis) in the STL format.
 
-In an attempt to have an ever more customized keyboard, I also engraved my nickname using Blender before printing the customized 3D files.
-**TODO**: Screenshot of the engraving, engraved files STL link for reference.
+In an attempt to have an ever more customized keyboard, I also engraved my nickname using Blender before printing the customized 3D files on both [Left](https://github.com/dosssman/Charybdis/blob/dosssman/files/4x6_dosssman/scylla82_left_embossed.stl) and [Right](https://github.com/dosssman/Charybdis/blob/dosssman/files/4x6_dosssman/charybdis3_v131_right_embossed.stl) sides.
 {: .text-justify}
 
-Finally, as I planned to heavily rely on the tenting solution, I used the wrist rests open-sourced [here] **TODO: Add links to wrist rest STLs**.
+Finally, as I planned to heavily rely on the tenting solution, I used the wrist rests open-sourced [by dereknheiley](https://github.com/dereknheiley/compactyl/blob/master/things/wrist-rest-right.stl) and [added some infills to make it less expensive to print](https://github.com/dosssman/Charybdis/blob/dosssman/files/4x6_dosssman/wrist-rest-honeycombed-flattop-original_height_40.8-right.stl).
 The wrist rests were made a bit taller to match with the tents height, with some manually added infills to save up resin.
+In the end though, I ended up relying on the arm rest of the office chair I am using to elevate my hands enough to match the height of the tented keyboard.
 {: .text-justify}
 
 Printing with a FormLabs printer requires the STL files to be sliced with the *PreForm* software. 
@@ -300,7 +320,8 @@ Besides that, here are a few notes regarding printing with a FormLab 3 using the
 - For clear prints, polishing then applying some clear UV cut coating is a must. The clear coating improves the glossiness and transparency of the print, as well as protect the case from yellow across time due to ambient UV rays. Before the prints are coated, it would be better to keep them hidden from sun light, or other UV ray sources.
 {: .text-justify}
 
-As a reference, the print ready PreForm files for this keybaord can be found [in this GitHub repository](). **TODO: Add link to repo**
+As a reference, the print ready PreForm files for this keyboard can be found [in this GitHub repository](https://github.com/dosssman/Charybdis/tree/dosssman/files/4x6_dosssman/preform).
+Note that the cases as engraved with my nickname, so I would not recommend re-using the PreForm as they are.
 {: .text-justify}
 
 Finally, a small showcase of the 3D printing tool and process.
@@ -613,12 +634,6 @@ At worst, it allows to chnage the keyswitches without soldering.
     <figcaption>Mill-Max sockets for the key switches.</figcaption>
 </figure>
 
-**TODO**: This should be added to the caveats, as well as the relevant part of the case and switch assembly.
-Namely, the Charybdis or the Scylla use flexible PCBs that are expected to be held to case by the switches once installed.
-THis can be hard to realize especially for the top and bottom row, since the PCB's inertia creates a force that the keyswitches inserted into the Mill-Max sockets might not compensate for.
-This can result in either the switch and PCB just not maintaining contact with the switch legs, or the PCBs slowly sliding of the switch's leg and losing contact after some time.
-{: .text-justify}
-
 After suspending the PCB while keeping the bottom part accessible, the Mill-Max sockets are inserted according to the key switch legs layout.
 {: .text-justify}
 
@@ -760,17 +775,15 @@ For the RGB *3 wires ribon cable*, the wiring is pretty straight forward: from m
 With the boards related components installed, and the boards themselves partially assembled, the next step is to prepare the MCU shield and finalize the electronics of the keyboard.
 {: .text-justify}
 
-**TODO** add links.
-This build (showcase 1)uses an Elite C as MCU, with the Shield v2.
-Meanwhile, the earlier build (showcase 2) actually uses a v1 shield.
+This <a href="#showcase-1">build (showcase 1)</a> uses an Elite C as MCU, with the Shield v2.
+Meanwhile, the earlier <a href="#showcase-2">build (showcase 2)</a> actually uses a Shield v1.
 The Shield v2 enables easier and cleaner installation.
-Namely, unlike the v1, the shield has holes for all the pins that come from the MCU, and the ribbon cables do not have to be soldered directly onto the Elite C MCU.
+Namely, unlike the v1, the shield has holes for all the pins that come from the MCU, and the ribbon cables do not have to be soldered directly onto the Elite C.
 {: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/3_6_elite_c/shield_v2_sockets_pin.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_6_elite_c/shield_v2_sockets_pin.JPG"></a>
     <figcaption>Shield v2 with the necessary header sockets, as well as the pins.</figcaption>
 </figure>
-**TODO**: Maybe add pics for the Shield v1. But might induce some confusion.
 
 In this build, the MCU is socketed instead of directly soldered to the shield.
 This would allow easier repair, when the USB C port breaks for example, or when re-using the MCU in other keyboard build.
@@ -793,7 +806,7 @@ The Elite C used for this build is actually from the previous [ErgoDash keyboard
 Henceforth, only the bottom five pins have to be installed to complete this part.
 {: .text-justify}
 
-When socketing for the first time, this guide was quite helpful. **TODO: inssert link to Splitkb ??? guide for socketing**
+When socketing for the first time, [this guide from Splitkb was quite helpful](https://docs.splitkb.com/hc/en-us/articles/360011091759).
 {: .text-justify}
 
 Before socekting anythign, makes ure to add some tape between the headers socket holes and the MCU.
@@ -885,6 +898,7 @@ To this end, a tool such as the [QMK Configurator](https://config.qmk.fm/#/test)
 
 #### 3.8 Case assembly
 Once it is ascertained that the electronics are working properly, the next steps is to combined them with the case.
+This is also a good time to clean up the solder joint and any remaining flux with some isopropyl alcohol (IPA).
 {: .text-justify}
 <figure class="one">
     <a href="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_case_boards_pre_assembly_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_case_boards_pre_assembly_1.JPG"></a>
@@ -929,11 +943,12 @@ While mounting the switches, it might also be worth testing once in a while that
 {: .text-justify}
 <figure class="one">
     {% for i in (4..7) %}
-        <a href="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_assembly_top_pov_withledon_4.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_assembly_top_pov_withledon_4.JPG"></a>
+        <a href="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_assembly_top_pov_withledon_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_assembly_top_pov_withledon_{{i}}.JPG"></a>
     {% endfor %}
 </figure>
 
-Once the switches are mounted and confirmed to work, the bottom of the case can be closed up, either with simple bottom plates, or the 30 degrees tents
+Once the switches are mounted and confirmed to work, the bottom of the case can be closed up, either with simple bottom plates, or the 30 degrees tents.
+{: .text-justify}
 <figure class="one">
     {% for i in (1..6) %}
         <a href="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_assembly_bottom_closing_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_assembly_bottom_closing_{{i}}.JPG"></a>
@@ -941,30 +956,334 @@ Once the switches are mounted and confirmed to work, the bottom of the case can 
     <figcaption>Closing up the bottom of the case and installing the 30 degree tents.</figcaption>
 </figure>
 
+After closing up the case, we test the cable connection and the key switches.
+{: .text-justify}
 <figure class="one">
     {% for i in (1..9) %}
         <a href="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_ontents_top_pov_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_ontents_top_pov_{{i}}.JPG"></a>    
     {% endfor %}
-    <figcaption></figcaption>
+    <figcaption>Scylla left with switches installed, 30 degrees tent, viewed from above, while testing that the switches respond as expected.</figcaption>
+</figure>
+
+We can finally proceed to the last step of adding the key caps.
+This build uses DSA Blank Transluescent caps of various colors, as an attempt to compliment the clear case.
+{: .text-justify}
+<figure class="one">
+    {% for i in (1..9) %}
+        <a href="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_keycaps_mounting_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/3_8_case_assembly/left_scylla_keycaps_mounting_{{i}}.JPG"></a>    
+    {% endfor %}
+    <figcaption>Key caps mounted, thus finalizing the case. Showcase with and without the backlit RGB.y</figcaption>
 </figure>
 
 ### 4. Right side: Charybdis
+This step is essentially the same as for the *Left Scylla* side.
+The crucical difference is the addition of the track ball, which is itself straigthforward.
+Furthermore, the flexible PCBs have to be oriented so that the side labeled as "Right" is the one facing up.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_1_installing_diodes/right_charybdis_orientation_check.JPG">
+    <img src="/assets/projects/charybdis_build/showcase1/4_1_installing_diodes/right_charybdis_orientation_check.JPG"></a>
+    <figcaption>Main PCB and thumb cluster for the Right Charybdis.</figcaption>
+</figure>
+
+#### 4.1 Installing the diodes
+Following the same procedure as for the Left Scylla side, the diodes are soldered on the main and thumb cluster PCB.
+For the Charybdis side, the thumb cluster has only 3 keys, hence only requiring 3 diodes.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_1_installing_diodes/right_charybdis_diodes_soldered.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_1_installing_diodes/right_charybdis_diodes_soldered.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_1_installing_diodes/right_charybdis_diodes_soldered_thumb_cluster.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_1_installing_diodes/right_charybdis_diodes_soldered_thumb_cluster.JPG"></a>
+    <figcaption>Main PCB and thumb cluster for the Right Charybdis.</figcaption>
+</figure>
+
+#### 4.2 Installing the RGB components [Optional]
+Similary to the [Left Scylla]() half board, 1 capacitator and 1 resistor are installed on the top left corner of the main PCB, with their designated placement marked with the *C* and *R* legends respectively.
+Moreover, 1 capacitator and 1 resistor are also installed on the thumb cluster at the deisgnated locations.
+Finally, the RGB LED themselve, 24 for the main PCB, and 3 for the thumb cluster are installed and soldered on.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_2_installing_rgb/right_charybdis_installed_rgb_main_and_thumb.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_2_installing_rgb/right_charybdis_installed_rgb_main_and_thumb.JPG"></a>
+    <figcaption>Right Charybdis side with RGB related components installed: capacitators, resistors, and RGB LEDs.</figcaption>
+</figure>
+
+#### 4.3 Installing Mill-Max sockets for hot-swap [Optional]
+The Mill-Max sockets for hot-swappable switches are again installed following the procedure detailed in the [Left Scylla Mill-Max installation section](), with the following end results:
+{: .text-justify}
+<figure class="one">
+    {% for i in (1..3) %}
+        <a href="/assets/projects/charybdis_build/showcase1/4_3_millmax/right_charybdis_mill_max_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_3_millmax/right_charybdis_mill_max_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+#### 4.4 Ribbon cables and RGB cables
+Next, the ribbon cables to link the main PCB with the thumb cluster daughter bord, as well as the MCU shield are installed.
+{: .text-justify}
+<figure class="one">
+    {% for i in (1..3) %}
+        <a href="/assets/projects/charybdis_build/showcase1/4_4_ribbon_rgb_cables/right_charybdis_cables_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_4_ribbon_rgb_cables/right_charybdis_cables_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+#### 4.5 Connecting the thumb cluster
+The next step is to connect the right thumb cluster to the appropriate ribbon cables coming from the main PCB, while making the legends align.
+Double checking on the related sub-section on the [official build guide](https://docs.bastardkb.com/hc/en-us/articles/4672368509074-Install-the-ribbon-cables-) is recommended.
+{: .text-justify}
+<figure class="one">
+    {% for i in (1..2) %}
+        <a href="/assets/projects/charybdis_build/showcase1/4_5_connecting_thumb/right_charybdis_main_and_thumb_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_5_connecting_thumb/right_charybdis_main_and_thumb_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+#### 4.6 Installing the Elite-C MCU
+Keeping the different orientation from the *Left Scylla* half board, the MCU Shield v2 abridged installatin process is as follows:
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shield_v2_headers.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shield_v2_headers.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shied_v2_headers_installed.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shied_v2_headers_installed.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shield_v2_elitec.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shield_v2_elitec.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shield_reset_btn.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_shield_reset_btn.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_jack_mcu_case.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_jack_mcu_case.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_elite_c_mcu_installed.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_6_elite_c/right_charybdis_elite_c_mcu_installed.JPG"></a>
+</figure>
 
 #### 4.7 Installing the trackball sensor
+This section is specific to the *Right Charybdis* half board, and outlines the step to install the trackball sensor as well as its holding compartment into the case.
+This builds uses 3D printed BTU instad of the default bearings, strinkign a trade-off between smoothness and price.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor.JPG"></a>
+    <figcaption>Trackball sensor.</figcaption>
+</figure>
+Note that the sensor board comes with some kapton tape under the sensor protecting case, which needs to be removed before pursuing the build, as per the official build guide.
 
-### 10. Assembling the case [Left, Right]
+As of 2022-04, the 3D printable BTU mod uses 3 small balls to support the trackball in the bottom enclosure of its assembly case.
+The balls had to be sourced independently. The insertion of the ball into the BTU mod, then the BTU mod into the bottom adapter of the snsor is pretty straight forward.
+It is a tight fit though, so it might require quite some force to get done.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_holder_btu_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_holder_btu_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_holder_btu_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_holder_btu_2.JPG"></a>
+    <figcaption>Bottom adapter for the trackball and the 3D printed BTU mod.</figcaption>
+</figure>
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_btu_ball.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_btu_ball.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_ball_placed.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_bottom_ball_placed.JPG"></a>
+    <figcaption>Checking that the trackball sits well.</figcaption>
+</figure>
+
+Next, the trackball sensor is sandwiched between the bottom adapter and the bottom sensor cover plate by screwing with the appropriate size screws.
+Those screws are smaller than the one that hold the bottom plate to the case.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_assembly_ball_check.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_sensor_assembly_ball_check.JPG"></a>
+    <figcaption>Final check to make sure the ball is sitting nicely.</figcaption>
+</figure>
+
+Next, the main PCB, MCU shield and trackball sensor will be connected together.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_prepare_trackball_soldering.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_prepare_trackball_soldering.JPG"></a>
+    <figcaption>Laying out all the intermediate parts before the final soldering for the *Right Charybdis*.</figcaption>
+</figure>
+
+The details on how to connect the pins are again provided in the official build guide.
+Those details are dependent on which hardware version is used, so the following should only be taken as reference.
+This part especially highlights the main advantange of the v2 shield version over the v1.
+Namely, ther is no more need to solder the ribbon cables directly onto the Elite C. Instead, they can be directly solder to the extend v2 PCB.
+The legends on both side help with aligning the pins of the ribbon cables adequately.
+Before soldering anything, one might also want to check the orientation and alignment of the board with the case.
+Make sure that the snesor will not face the bottom side of the case, among other things.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_trackball_soldered.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_7_installing_trackball/right_charybdis_trackball_soldered.JPG"></a>
+    <figcaption>All ribbon cable from the main PCB and the trackball soldered onto the MCU Shield v2.</figcaption>
+</figure>
+
+#### 4.8 Preliminary testing
+Before doing anything else, just as for the *Left Scylla* half board, the electronics are tested to make sure that they RGB LED all light up, and that they key switches are also working.
+We can also take this opportunity to check that the trackball makes cursor move on the screen.
+{: .text-justify}
+<figure class="one">
+    {% for i in (1..5) %}
+        <a href="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/right_charybdis_testing_rgb_keys_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/righty_charybdis_qmk_test.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_8_preliminary_testing/righty_charybdis_qmk_test.JPG"></a>
+    <figcaption>Testing the right half board with the QMK configurator by shorting the switches hole, before mounting the board into the case.</figcaption>
+</figure>
+
+#### 4.9 Case assembly
+Final step for this half of the keyboard, mounting everything into the case.
+First, the sensor top adapter has to be gently inserted into the hollow part of the case that will hold the trackball.
+That part is relatively fragile compared to the other regions of the case, hence some additonal care and attention when working around is warranted.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_case_sensor_top_adapter_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_case_sensor_top_adapter_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_case_sensor_top_adapter_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_case_sensor_top_adapter_2.JPG"></a>
+</figure>
+
+Proceed to fit the PCB into the case, screw in the trackball, then progressively install the switches.
+Again ,the details on how this is done are already documented in the corresponding secitoin of the *Left Scylla* half board, hence skipped in this section.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_boards_into_case.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_boards_into_case.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_1.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_installing_switches_2.JPG"></a>
+</figure>
+
+Special mention of the Gorilla taped for holding the PCB to the case, because the key switches fit into the Mill-Max sockets are not always strong enough to hold the flexible PCB to the case.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/righty_charybids_taped_pcb.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/righty_charybids_taped_pcb.JPG"></a>
+</figure>
+
+<figure class="one">
+    {% for i in (1..7) %}
+        <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_switches_mounted_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_switches_mounted_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+Cloging the bottom, before also adding the 30 degrees tents.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charibdis_bottom_closed.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charibdis_bottom_closed.JPG"></a>
+</figure>
+
+Showcasing the half board once the key switches and the 30 degrees tent are installed, with and without RGB effets:
+<figure class="one">
+    {% for i in (1..10) %}
+        <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_switches_mounted_tented_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_switches_mounted_tented_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+Final step is the mounting of the keycaps.
+<figure class="one">
+    {% for i in (1..10) %}
+        <a href="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_keycaped_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/4_9_case_assembly/right_charybdis_keycaped_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+### 5. Final build showcase
+That is it as far as the hardware is concerned.
+Both sides have been assembled, the electronics have been confirmed to work, then the cases were closed and cleaned up.
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_unplugged.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_unplugged.JPG"></a>
+</figure>
+
+Once plugged, the default RGB animation is a multicolored wave movining from left to right:
+{: .text-justify}
+<figure class="one">
+    {% for i in (1..10) %}
+        <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_{{i}}.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_rgb_{{i}}.JPG"></a>
+    {% endfor %}
+</figure>
+
+Personally, I have settled for a slowly breathing pattern with a uniform cyan-ish color.
+{: .text-justify}
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_1.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_1.JPG"></a>
+</figure>
+<figure class="half">
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_2.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_2.JPG"></a>
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_3.JPG"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/both_sides_plugged_3.JPG"></a>
+</figure>
+
 
 ## Key layout and firmware 
+The firmware is based on the [Bastardkb fork of the qmk_firmware](https://github.com/Bastardkb/bastardkb-qmk).
+Building on top of my previous experience with the ErgoDash keybaord, I have designed a transitionary layout that matches personal preference.
+The layout setup was done using the [QMK Configurator online tool](https://config.qmk.fm/#/bastardkb/charybdis/4x6/LAYOUT_charybdis_4x6).
+The final layout is exported as [JSON file](https://github.com/dosssman/qmk_firmware/blob/charybdis_dosssman/keyboards/bastardkb/charybdis/4x6/keymaps/dosssman/dosssman.json), which will be used to generate a `keymap.c` object that is further compiled into the firmware to be flashed on each boards.
+{: .text-justify}
 
-- Expand on the rational behind the layout design
-- Add the steps for flashing.
-__NOTE / TODO__ By this point, you should have already cloned the bkb-master branch, consolidated the qmk firmware under a single repository for both j0554 and dosssman, and describe the clean process of installing it.
+The outline of the qmk firmware tool setup and flashing would be as follows.
+{: .text-justify}
+**1. Installing QMK and cloning the firmware reposity**
+For the `qmk` tool itself, the official [QMK documentation website](https://docs.qmk.fm/) has all the instructions to install it.
+Using a Linux system, and once the qmk setup step is passed, the `qmk` command should be available through the terminal.
+{: .text-justify}
 
-Consider cloning and zipping the github repositories files themselves, host them and add them to the post  as a form of backup ?
+**2. Cloning the firmware repository**
+Next, I clone the firmware repository, in this case, my fork of qmk_firmware that also incorporates that of bastardkb.
+Since I am maintaining firmwares for different keyboards, I have segregated the files for each keyboard's firmware under a different branch.
+In this case, I use the [dosssman/qmk_firmware's charybdis_dosssman branch](https://github.com/dosssman/qmk_firmware/blob/charybdis_dosssman/keyboards/bastardkb/charybdis/4x6/keymaps/dosssman/dosssman.json).
+{: .text-justify}
+```bash
+git clone https://github.com/dosssman/qmk_firmware --branch charybdis_dosssman
+cd qmk_firmware
+qmk setup -H .
+make git-submodules
+```
+The second last line will indicate to the previously installed `qmk` tool to use the cloned repository as base to build and flash the firmware.
+The last lines install dependencies if needs be, in case it is suggested in the output of the previous line.
+{: .text-justify}
+
+The `charybdis_dosssman` branch incorporates a few additional changes that makes the flashing easier for me.
+The first is that instead of setting the master board as right by default, I enable EE_HANDS that allows to specify which side of the board is being used just before flashing.
+This is done by changing the `keyboards/bastarkd/charybdis/4x6/config.h` from having:
+{: .text-justify}
+```
+#define MASTER_RIGHT
+```
+to 
+```
+#define EE_HANDS
+```
+I also enable mouse keys by setting `MOUSEKEY_ENABLE = yes` in the `keyboards/charybdis/rules.mk`. Note that this will consume around 3% of available byte space on the MCU.
+{: .text-justify}
+
+**3. Creating a custom layout profile**
+Assuming the [bastardkb-qmk](https://github.com/Bastardkb/bastardkb-qmk) repository was freshly cloned, first I copied the `default` directory `keyboards/firmware/bastardkb/charybdis/4x6/keympas/` into a new directory: `keyboards/firmware/bastardkb/charybdis/4x6/keympas/`.
+This directory will hold the files related to the custom keympa.
+Next, using the QMK Configurator Online Tool, the following layout is generated.
+{: .text-justify}
+
+<figure class="one">
+    <a href="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/dosssman_keymap.png"><img src="/assets/projects/charybdis_build/showcase1/5_final_build_showcase/dosssman_keymap.png"></a>
+</figure>
+
+Using the export tool of QMK Configurator, it is saved as `dosssman.json` under the `keyboards/firmware/bastardkb/charybdis/4x6/keympas/` directory.
+Next navigate to this directoy, and generate the `keymap.c` file based on `dosssman.json`:
+{: .text-justify}
+```bash
+cd /path/to/keyboards/firmware/bastardkb/charybdis/4x6/keympas/dossssman
+qmk json2c dosssman.json > keymap.json
+cd /path/to/qmk_firmware # Come back to the root folder of the cloned qmk repository
+```
+
+**4. Flashing both halves of the keyboard**
+Then, from the root of the qmk firmware repositorty, I run the following two commands which will compile the `keympa.c` and other core firmware code source into the `.hex` file that will be written onto the MCU.
+Each command has to be executed with the corresponding half of the keyboard plugged, and the reset button pressed when prompted by the qmk tool.
+{: .text-justify}
+
+```bash
+# For the left half of the keyboard
+make bastardkb/charybdis/4x6/v2/elitec:dosssman:dfu-split-left
+# For the right half of the keyboard
+make bastardkb/charybdis/4x6/v2/elitec:dosssman:dfu-split-right
+```
+
+With this, the keyboard is ready to go.
+
+**Some additional notes:**
+- Depending on which MCU shield version is used, the flashing command `make bastardkb/charybdis/4x6/v2/elitec:dosssman:dfu-split-left` has to be adapted to use either `v1` or `v2`, at the time of this writing (2022-08).
+- QMK Configurator supports custom keycodes, namely the ones that enable drag scrol, mouse sniping, and DPI on the fly configuration. This can be done by dragging the "Any" key onto the keyboard layout, then typing in the custom key code.
+- As of 2022-04, the trackball's advanced features such mouse drag scroll and snipping do not work if the master board (connect to USB C) is Scylla one.
+- Additional RGB profiles can be added into the firmware based on the [QMK firmware's official documentation](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_rgb_matrix.md).
+As a reference, here were the steps used to add a unicolor breathing mode: in the `keyboards/firmware/bastardkb/charybdis/4x6/keympas/dosssman` folder, edited `config.h` as follows:
+```
+// Rainbow swirl as startup mode.
+#    define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
+#    define ENABLE_RGB_MATRIX_BREATHING // new addition
+#    define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT
+```
+The supported RGB profiles were taken from [QMK Docs](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_rgb_matrix.md#rgb-matrix-effects-idrgb-matrix-effects).
 
 # Acknowledgment
-- Sir Quentin
-- The BKB community, and more generally, the open source community.
-- Professor Takiguchi for the 3D printing machine setup
-- Jojo-san for the pictures / help building. **TODO** Any link to a public page ?
-- The willpower required for months long saving up of money.
+- Quentin Lebastard for his thoughfull desing of the Charybdis and Scylla.
+- The BKB community on Reddit and Discord, and more generally, the open source community. Special thanks to Charly on Discord for hinting the need to use the proper firmware version for the V2 MCU shield.
+- My university professor for enabling us to use the 3D printer.
+- My labmate which now uses the build in [Showcase 2]() for the discussion and help.
