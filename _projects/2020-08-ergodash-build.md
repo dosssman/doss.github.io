@@ -105,7 +105,7 @@ I ended up combining it with a Logitech M575 Trackball positioned under the righ
 <figure class="one">
     <a href="/assets/projects/ergodash_build/FinalPics/IMG_20200812_161558.jpg"><img src="/assets/projects/ergodash_build/2022_05_Update/IMG_20211109_120045.jpg"></a>
 </figure>
-For a more integrated keyboard, I would recommend the [Charybdis](https://bastardkb.com/charybdis/), which build is currently underway.
+For a more integrated keyboard, I would recommend the [Charybdis](https://bastardkb.com/charybdis/), [which build notes should also be accessible here](/projects/2022-05-charybdis-build/).
 
 ## Important build notes
 
@@ -239,7 +239,7 @@ Otherwise, one might end up with two left or two right-hand boards if not carefu
 
 <figure class="one">
     <a href="/assets/projects/ergodash_build/BuildLog/IMG_20200730_023400.jpg"><img src="/assets/projects/ergodash_build/BuildLog/IMG_20200730_023400.jpg"></a>
-    <figcaption>Blue sticker for underboard, red one for upper board. Usefull to avoid confusion when no components are moounted yet.</figcaption>
+    <figcaption>Blue sticker for underboard, red one for upper board. Usefull to avoid confusion when no components are moounted yet.</figcaption>rrwwww
 </figure>
 
 For the diodes, as per the official guide, it is important to align the black stripe leg with the square holes, and the other leg in the round one.
