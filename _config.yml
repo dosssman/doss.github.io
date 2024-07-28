@@ -197,7 +197,7 @@ exclude:
   - LICENSE
   - log
   - node_modules
-  - package.json
+  # - package.json # This breaks `bundle exec jekyll server` under ruby3.3.3 as of 2024-07-28
   - package-lock.json
   - Rakefile
   - README
