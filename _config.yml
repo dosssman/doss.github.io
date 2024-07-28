@@ -115,8 +115,8 @@ analytics:
 author:
   name             : "Rousslan Dossa"
   avatar           : "/assets/images/bio-author.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Deep Reinforcement Learning Researcher. Aspiring to create a universal intelligent agents that will teach me back and maybe turn me into such an agent myself."
-  location         : "Kobe, Japan, Earth, Sol"
+  bio              : "Deep Reinforcement Learning Researcher at Araya Inc. Aspiring to create a universal intelligent agents that will teach me back and maybe turn me into such an agent myself."
+  location         : "Tokyo, Japan, Earth, Sol"
   # email            : dosssman[at]hotmail.fr
   links:
     - label: "Email"
