@@ -8,3 +8,11 @@ author_profile: false
 {% for post in site.pages %}
   {% include archive-single.html %}
 {% endfor %}
+
+<!-- This is from version 4.26 -->
+{% comment %}
+{% assign posts = site.pages | where_exp: "post", "post.hidden != true" %}
+{% for post in posts %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endcomment %}
