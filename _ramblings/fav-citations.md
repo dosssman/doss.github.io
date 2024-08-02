@@ -1,9 +1,16 @@
 ---
-title: "Some citations"
+title: "Quotes Collection"
 author_profile: true
 comments: true
 # toc: true
 ---
+
+> Luck favors the prepared mind. Louis Pasteur
+
+<cite>Louis Pasteur</cite>
+{: .small}
+
+Comment: Copiously emphasized by Richard Hamming in his Learning to Learn lecture series. A reminder to keep exploring and acuiring skills and knowledge to be ready for opportunities as they come.
 
 > - B.S. = bull shit; M.S. = more shit; PhD = piled higher & deeper
 
@@ -25,7 +32,7 @@ An example that comes to mind was when playing some challenging level of Doom Et
 
 <cite>Robert Frost</cite>
 {: .small}
-Comment: pending I guess.
+Comment: although some rules or lawas might be stupid, there might be a legitimate but not self-evident reason for its establishment. Not to say that olds rules should be dispensed with, but _better be sure that you understand why it is there in the first place at a deeper level_. Not just for mere convenience.
 
 > The problem with democracy is that those who need leaders are not qualified to choose them
 
