@@ -5,7 +5,7 @@ comments: true
 # toc: true
 ---
 
-> Luck favors the prepared mind. Louis Pasteur
+> Luck favors the prepared mind.
 
 <cite>Louis Pasteur</cite>
 {: .small}
